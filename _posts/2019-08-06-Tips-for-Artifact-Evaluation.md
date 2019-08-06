@@ -37,9 +37,57 @@ If the nature of your artifact *requires* you to run on special hardware --- for
 
 ## Tip B: Estimate human and compute time upfront
 
-## Tip C: Support (almost) instant gratification
+One of the **most important** things to keep in mind when submitting an artifact is the AEC's time. Reviewing an artifact takes considerably longer than reviewing a paper, and it is very hard work. Please, please, PLEASE respect the AEC's time and do everything in your power to prevent the reviewers from having to stare at your artifact and wonder what's going on.
+
+A simple way to address this issue is to clarify the amount of *human-time* and *compute-time* required for *every, single, step* in your README. In fact, I recommend providing an outline of each step with an estimate of human / compute time before going into the details. Here is an example:
+
+```
+Artifact FooBar
+# Overview
+* Getting Started (10 human-minutes + 5 compute-minutes)
+* Build Stuff (2 human-minutes + 1 compute-hour)
+* Run Experiments (5 human-minutes + 24 compute-hours) 
+* Validate Results (30 human-minutes + 5 compute-minutes)
+
+# Getting Started
+Run `./install.sh` and go grab a coffee (5 minutes to install). 
+You will see no output while the script runs. 
+The script accesses the internet to download external dependencies such as Qux and Baz.
+Once complete, it will have created a directory called `stuff`.
+If this command fails, you can delete the `stuff` directory and try again.
+...
+
+# Build Stuff 
+Run `./build.sh stuff` and get some lunch -- this should take approx. one hour to complete. 
+You should see a progress bar while the command runs.
+Once complete, it will have created a `BUILD` directory. If this directory already exists, it will be overwritten.
+...
+
+```
+
+The above example also showed some elements from the next tip...
 
 ## Tip D: Explain side-effects before they occur
+
+Whenever you ask the reader to perform an action, such as executing a command or script, please clarify what side-effects that command will have. For example, does it create or modify any files? Does it create any new directories? Are the filenames dependent on the command-line arguments that you provide? Will the command try to access the internet? Will running the command lead to large amounts of additional disk space being used? What output should you expect if everything goes fine?
+
+## Tip C: Support (almost) instant gratification
+
+Many papers report results of experiments that can take inordinately long to compute. For example, one of the artifacts that I submitted myself required 2 CPU-years to run the whole experiment. Naturally, you cannot and *should not* expect the AEC reviewers to spend so many compute resources.
+
+A good way around this is to provide *alternative* experiment configurations, which can run with much fewer resources, even if they provide only approximate results. For example, you could provide the following in your artifact README:
+
+```
+# Experiments (3 compute-hours)
+Run `./exp.sh 6 30m 1` to run our tool on only *6 benchmarks* for *30 minutes each* with only *1 repetition*. 
+This command takes only **3 hours** to run in total, and produces results that approximate the results shown in the paper.
+
+Run `./exp.sh 20 24h 10` to replicate the full experiments in the paper, which take 200 days to run. 
+Feel free to tweak the args to produce results with intermediate quality, depending on the time that you have.
+```
+
+When providing means to produce approximate results, some AEC reviewers may not be satisfied that they can validate all the claims in your paper --- because it necessarily requires weeks or months to reproduce the tables or plots that you have in the paper. In such cases, you could provide the results of the long-running experiments in your aritfact package as a sort of *pre-baked* data-set. Make sure that the the output of *fresh-baked* approximate experiments (as shown above) is in exactly the same format as your *pre-baked* data set. That way, you could increase the reviewer's confidence that *had they performed the full set of experiments, they would have seen results similar to that shown in the paper*.
+
 
 ## Tip G: Support hotfixing and failure recovery
 
