@@ -11,7 +11,7 @@ In this post, I would like to share some insights that I gained while participat
 
 This post is heavily biased towards PL/SE/Systems-ish artifacts that involve tools, scripts, benchmarks, and experiments, since I've had most experience with such type of artifacts.
 
-\* One of these won an ACM SIGOSFT Distinguished Artifact Award!
+\* One of these won a Distinguished Artifact Award!
 
 * TOC
 {:toc}
