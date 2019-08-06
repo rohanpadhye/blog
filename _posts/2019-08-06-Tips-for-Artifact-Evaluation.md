@@ -3,15 +3,15 @@ layout: post
 title: Tips for Artifact Evaluation
 ---
 
-A number of software research conferences such as ICSE, ISSTA, ASE, PLDI, OOPSLA, SOSP and USENIX Security incorporate an *artifact evaluation* (AE) process: authors of accepted papers can optionally submit their tools, code, data, and scripts for independent validation of the claims in their paper by an artifact evaluation committee (AEC). Personally, I'm a big fan of the AE process, as it promotes reproducible and reusable research.
+A number of software research conferences such as [ICSE](https://2019.icse-conferences.org/track/icse-2019-Artifact-Evaluation), [ISSTA](https://conf.researchr.org/track/issta-2019/issta-2019-Artifact-Evaluation-#About), [PLDI](https://pldi19.sigplan.org/track/pldi-2019-PLDI-Research-Artifacts), [OOPSLA](https://2019.splashcon.org/track/splash-2019-Artifacts#Call-for-Artifacts), [SOSP](https://sysartifacts.github.io/) and [USENIX Security](https://www.usenix.org/conference/usenixsecurity20/artifact-evaluation-information) incorporate an *artifact evaluation* (AE) process: authors of accepted papers can optionally submit their tools, code, data, and scripts for independent validation of the claims in their paper by an artifact evaluation committee (AEC). Papers with accepted artifacts get stamped with [one or more badges](https://www.acm.org/publications/policies/artifact-review-badging). Personally, I'm a big fan of the AE process, as it promotes reproducible and reusable research.
 
 But what makes a good artifact? On the surface, the AE process mirrors a paper submission process; for example, there is usually a Call for Artifacts (CFA), which provides some basic instructions, then the artifacts are submitted through a portal such as [HotCRP](http://hotcrp.com), and finally you get back reviews, possibly after one or more opportunities for rebuttal. However, the actual work required to produce and/or review an artifact is vastly different from the equivalent for papers.  Just like a CFP doesn't necessarily tell you what makes a good paper (or what will get your reviewers mad), the CFA does not say much about what an ideal artifact looks like (or what will make the AEC give up).
 
-In this post, I would like to share some insights that I gained while participating in two artifact committees (PLDI 2018 and PLDI 2019) as well as while submitting two artifacts* of my own as first author (ISSTA 2019 and OOPSLA 2019). I am by no means an expert on this topic, but I hope that this post might help artifact authors in avoiding some common pain points that I've encountered numerous times myself. 
+In this post, I would like to share some insights that I gained while participating in two artifact committees (PLDI 2018 and PLDI 2019) as well as while submitting two artifacts* of my own as first author (ISSTA 2019 and OOPSLA 2019). I am by no means an expert on this topic. However, my experience has led to me to identify some common pain points that make the AE process annoying for both authors and reviewers. I hope that this post helps future authors (and perhaps even reviewers and chairs) in ensuring that AE goes smoothly.
 
 This post is heavily biased towards PL/SE/Systems-ish artifacts that involve tools, scripts, benchmarks, and experiments, since I've had most experience with such type of artifacts.
 
-\*One of these won an ACM SIGOSFT Distinguished Artifact Award.
+\* One of these won an ACM SIGOSFT Distinguished Artifact Award!
 
 * TOC
 {:toc}
@@ -129,4 +129,6 @@ If you have plots in the paper, then it is generally a good idea to auto-generat
 
 It is not uncommon for authors to rename tools, techniques, theorems, and other named entities just a day or two before paper submission. This often leads to aritfacts and papers disagreeing on standard terminology. When submitting artifacts for AE, remember to refactor the artifact to use the same terminology used in the paper. Sometimes, this is not possible -- for example, if your artifact contains pre-baked results of experiments that were run before you decided on a terminology; in such cases, include some explanation of old/new terminology in your artifact README before you discuss how to run scripts or read provided files.
 
+---
 
+If you have experience with artifact evaluation yourself and have more tips to add, some insights regarding other types of artifacts (e.g. survey data and user studies), or if you disagree with anything in this post, please let me know.
