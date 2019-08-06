@@ -35,7 +35,7 @@ If the nature of your artifact *requires* you to run on special hardware --- for
 
 ## Tip 2: Estimate human and compute time and declare it upfront
 
-One of the **most important** things to keep in mind when submitting an artifact is the AEC's time. Reviewing an artifact takes considerably longer than reviewing a paper, and it is very hard work. Please, please, PLEASE respect the AEC's time and do everything in your power to prevent the reviewers from having to stare at your artifact for hours wondering if they are doing the right thing.
+One of the **most important** things to keep in mind when submitting an artifact is the AEC's time. Reviewing an artifact takes considerably longer than reviewing a paper, and it is very hard work. Respect the AEC's time and do everything in your power to prevent the reviewers from having to stare at your artifact for hours wondering if they are doing the right thing.
 
 A simple way to address this issue is to clarify the amount of *human-time* and *compute-time* required for *every, single, step* in your README. In fact, I recommend providing an outline of each step with an estimate of human / compute time before going into the details. Here is an example artifact README:
 
@@ -67,7 +67,7 @@ The above example also shows some elements that form the next tip...
 
 ## Tip 3: Explain side-effects before they occur
 
-Whenever you ask the reader to perform an action, such as executing a command or script, please clarify what side-effects that command will have. For example, does it create or modify any files? Does it create any new directories? Are the filenames dependent on the command-line arguments that you provide? Will the command try to access the internet? Will running the command lead to large amounts of additional disk space being used? What output should you expect if everything goes fine?
+Whenever you ask the reader to perform an action, such as executing a command or script, clarify what side-effects that command will have. For example, does it create or modify any files? Does it create any new directories? Are the filenames dependent on the command-line arguments that you provide? Will the command try to access the internet? Will running the command lead to large amounts of additional disk space being used? What output should you expect if everything goes fine?
 
 Such information helps AE reviewers sanity check. It also prevents errors in one step cascading to subsequent steps because the reviewer did not realize that some step failed. Cascading errors makes for very hard debugging, especially when the AE process allows only a fixed number of rebuttal opportunities. Try to help reviewers identify failing steps quickly.
 
@@ -104,7 +104,7 @@ That said, hotfixing is not useful if your artifact cannot deal with failure rec
 
 ## Tip 6: Cross-reference claims from the paper (and explain what's missing)
 
-One of the main purposes of artifact evaluation is to enable the AEC to independently validate claims made in the paper. For this purpose, please do not just ask the AEC to run a bunch of scripts and say "QED". It is important to list down items from the paper and cross-reference them with data from the artifact. For example, your README could say:
+One of the main purposes of artifact evaluation is to enable the AEC to independently validate claims made in the paper. For this purpose, do not just ask the AEC to run a bunch of scripts and say "QED". It is important to list down items from the paper and cross-reference them with data from the artifact. For example, your README could say:
 
 ~~~ markdown
 # Validate Results (30 human-minutes + 5 compute-minutes)
@@ -123,7 +123,7 @@ Our artifact does not validate the following claims:
 
 ## Tip 7: Produce results in a standard human-readable format
 
-If you have plots in the paper, then it is generally a good idea to auto-generate plots from the results of experiments, instead of asking the AEC to stare at log files and compare numbers from these logs with figures in the paper. If you do the latter, then please adjust the estimation for "human-minutes" accordingly, as it takes longer for humans to read text than to read figures. Conversely, when reproducing tables from the paper, it is easier for a reviewer to read CSVs or nice ASCII-formatted tables rather than to read LaTeX-formatted tables. Please avoid auto-generating LaTeX, even if you did this for your paper. As a general rule of thumb, prefer standard human-readable formats (e.g. CSV or MarkDown) rather than custom human-readable formats (e.g. arbitrary log files) or formats intended for machines (e.g. JSON or XML).
+If you have plots in the paper, then it is generally a good idea to auto-generate plots from the results of experiments, instead of asking the AEC to stare at log files and compare numbers from these logs with figures in the paper. If you do the latter, then adjust the estimation for "human-minutes" accordingly, as it takes longer for humans to read text than to read figures. Conversely, when reproducing tables from the paper, it is easier for a reviewer to read CSVs or nice ASCII-formatted tables rather than to read LaTeX-formatted tables. Avoid auto-generating LaTeX, even if you did this for your paper. As a general rule of thumb, prefer standard human-readable formats (e.g. CSV or MarkDown) rather than custom human-readable formats (e.g. arbitrary log files) or formats intended for machines (e.g. JSON or XML).
 
 ## Tip 8: Use consistent terminology
 
