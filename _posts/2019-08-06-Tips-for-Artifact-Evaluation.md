@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Tips for Artifact Evaluation
-published: false
 ---
 
 A number of software research conferences incorporate an *artifact evaluation* (AE) process: authors of accepted papers can optionally submit their tools, code, data, and scripts for independent validation of the claims in their paper by an artifact evaluation committee (AEC). Personally, I'm a big fan of the AE process, as it promotes reproducible and reusable research.
