@@ -91,6 +91,16 @@ When providing means to produce approximate results, some AEC reviewers may not 
 
 ## Tip G: Support hotfixing and failure recovery
 
+No matter how hard you try or how many of your friends and collegues you get to try out your artifact, you can expect that something goes wrong for at least one of the reviewers. Usually, the reviewer is missing some dependency, has limited resources (e.g. memory), or is running an OS or other platform that requires a slightly different configuration which you did not anticipate.
+
+Fret not, as most AE processes provide a mechanism for reviewers to communicate issues with basic functionality of the artifact, and receive tech support from the authors. In most cases, authors can identify the issue and quickly fix the artifact on their local machine.
+
+Now, how do you send this fix over to the AEC? One way would be to repackage the entire artifact again and ask the AEC to re-download this giant 10GB file and load up another VM, etc. A much better solution would be to support *hotfixing*, i.e., patching the artifact while it is live and running on the reviewer's machine.
+
+There are many ways to do this and I don't want to go into detail here. For Docker, you could post your container images to [Docker Hub](https://hub.docker.com/) and have the reviewers simply `docker pull`. In other cases, you could embed a Git repository of your scripts/tools in the package that you send and simply have the reviewers perform a `git pull`. Either way, the important thing is to support the hotfixing mechanism *before you submit the first version*. This is often a step that authors forget to do in their initial submission.
+
+That said, hotfixing is not useful if your artifact cannot deal with failure recovery. A good artifact is one which can recover from crashes in any step of the README. For example, let's say the command `./exp.sh results` runs your experiments and produces results in the `results` directory, and this command crashes due to a bug in your aritfact. You've now identified a fix, pushed changes, and asked the reviewers to pull the latest version of the artifact, bug-free. A simple strategy would simply be to ask the reviewers to delete the `results` directory and run the command again. In short, try to avoid any steps in your artifact causing global, irreversible changes, which cannot be hotfixed.
+
 ## Tip E: Cross-reference claims from the paper (and explain what's missing)
 
 ## Tip F: Use consistent terminology
