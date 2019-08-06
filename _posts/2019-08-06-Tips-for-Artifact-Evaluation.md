@@ -13,8 +13,6 @@ This post is heavily biased towards PL/SE/Systems-ish artifacts that involve too
 
 \*One of these won an ACM SIGOSFT Distinguished Artifact Award.
 
-## tl;dr
-
 * TOC
 {:toc}
 
@@ -41,7 +39,7 @@ One of the **most important** things to keep in mind when submitting an artifact
 
 A simple way to address this issue is to clarify the amount of *human-time* and *compute-time* required for *every, single, step* in your README. In fact, I recommend providing an outline of each step with an estimate of human / compute time before going into the details. Here is an example artifact README:
 
-```
+~~~
 Artifact FooBar
 # Overview
 * Getting Started (10 human-minutes + 5 compute-minutes)
@@ -63,7 +61,7 @@ You should see a progress bar while the command runs.
 Once complete, it will have created a `BUILD` directory. If this directory already exists, it will be overwritten.
 ...
 
-```
+~~~
 
 The above example also shows some elements that form the next tip...
 
@@ -79,7 +77,7 @@ Many papers report results of experiments that can take very long to compute. Fo
 
 A good way around this is to provide *alternative* experiment configurations, which can run with much fewer resources, even if they provide only approximate results. For such a mini-experiment, aim for less than 24 hours of compute on a single-core CPU. For example, you could provide the following in your artifact README:
 
-```
+~~~
 # Experiments (3 compute-hours)
 Run `./exp.sh 6 30m 1` to run our tool on only *6 benchmarks* for *30 minutes each* with only *1 repetition*. 
 This command takes only **3 hours** to run in total, and produces results that approximate the results shown in the paper.
@@ -87,7 +85,7 @@ Since there is only 1 repetition, there will be no error bars.
 
 Run `./exp.sh 20 24h 10` to replicate the full experiments in the paper, which take 200 days to run 10 reps of all 20 benchmarks for 24 hours each. 
 Feel free to tweak the args to produce results with intermediate quality, depending on the time that you have.
-```
+~~~
 
 When providing means to produce approximate results, some AEC reviewers may not be satisfied that they can validate all the claims in your paper --- because it necessarily requires weeks or months to reproduce the tables or plots that you have in the paper. In such cases, you could provide the results of the long-running experiments in your aritfact package as a sort of *pre-baked* data-set. Make sure that the the output of *fresh-baked* approximate experiments (as shown above) is in exactly the same format as your *pre-baked* data set. That way, you could increase the reviewer's confidence that *had they performed the full set of experiments, they would have seen results similar to that shown in the paper*.
 
@@ -108,7 +106,7 @@ That said, hotfixing is not useful if your artifact cannot deal with failure rec
 
 One of the main purposes of artifact evaluation is to enable the AEC to independently validate claims made in the paper. For this purpose, please do not just ask the AEC to run a bunch of scripts and say "QED". It is important to list down items from the paper and cross-reference them with data from the artifact. For example, your README could say:
 
-```
+~~~
 # Validate Results (30 human-minutes + 5 compute-minutes)
 Run `./exp.sh results` to run the experiments and produce results in the `results` directory.
 
@@ -121,7 +119,7 @@ Our artifact does not validate the following claims:
 - On Page 8, we say X, but this cannot be validated without access to specialized hardware/people, so we leave it out of scope of artifact evaluation.
 
 ...
-```
+~~~
 
 ## Tip 7: Produce results in a standard human-readable format
 
