@@ -7,7 +7,7 @@ A number of software research conferences incorporate an *artifact evaluation* (
 
 But what makes a good artifact? On the surface, the AE process mirrors a paper submission process; for example, there is usually a Call for Artifacts (CFA), which provides some basic instructions, then the artifacts are submitted through a portal such as [HotCRP](http://hotcrp.com), and finally you get back reviews, possibly after one or more opportunities for rebuttal. However, the actual work required to produce and/or review an artifact is vastly different from the equivalent for papers.  Just like a CFP doesn't necessarily tell you what makes a good paper (or what will get your reviewers mad), the CFA does not say much about what an ideal artifact looks like (or what will make the AEC give up).
 
-In this post, I would like to share some insights that I gained while participating in two artifact committees (PLDI 2018 and PLDI 2019) as well as while submitting two artifacts* of my own as first author. I am by no means an expert on this topic, but I hope that this post might help artifact authors in avoiding some common pain points that I've encountered numerous times myself. 
+In this post, I would like to share some insights that I gained while participating in two artifact committees (PLDI 2018 and PLDI 2019) as well as while submitting two artifacts* of my own as first author (ISSTA 2019 and OOPSLA 2019). I am by no means an expert on this topic, but I hope that this post might help artifact authors in avoiding some common pain points that I've encountered numerous times myself. 
 
 This post is heavily biased towards PL/SE/Systems-ish artifacts that involve tools, scripts, benchmarks, and experiments, since I've had most experience with such type of artifacts.
 
@@ -39,7 +39,7 @@ One of the **most important** things to keep in mind when submitting an artifact
 
 A simple way to address this issue is to clarify the amount of *human-time* and *compute-time* required for *every, single, step* in your README. In fact, I recommend providing an outline of each step with an estimate of human / compute time before going into the details. Here is an example artifact README:
 
-~~~
+~~~ markdown
 Artifact FooBar
 # Overview
 * Getting Started (10 human-minutes + 5 compute-minutes)
@@ -77,7 +77,7 @@ Many papers report results of experiments that can take very long to compute. Fo
 
 A good way around this is to provide *alternative* experiment configurations, which can run with much fewer resources, even if they provide only approximate results. For such a mini-experiment, aim for less than 24 hours of compute on a single-core CPU. For example, you could provide the following in your artifact README:
 
-~~~
+~~~ markdown
 # Experiments (3 compute-hours)
 Run `./exp.sh 6 30m 1` to run our tool on only *6 benchmarks* for *30 minutes each* with only *1 repetition*. 
 This command takes only **3 hours** to run in total, and produces results that approximate the results shown in the paper.
@@ -106,7 +106,7 @@ That said, hotfixing is not useful if your artifact cannot deal with failure rec
 
 One of the main purposes of artifact evaluation is to enable the AEC to independently validate claims made in the paper. For this purpose, please do not just ask the AEC to run a bunch of scripts and say "QED". It is important to list down items from the paper and cross-reference them with data from the artifact. For example, your README could say:
 
-~~~
+~~~ markdown
 # Validate Results (30 human-minutes + 5 compute-minutes)
 Run `./exp.sh results` to run the experiments and produce results in the `results` directory.
 
