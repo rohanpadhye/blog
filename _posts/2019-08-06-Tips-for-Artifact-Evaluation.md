@@ -103,9 +103,30 @@ That said, hotfixing is not useful if your artifact cannot deal with failure rec
 
 ## Tip E: Cross-reference claims from the paper (and explain what's missing)
 
+One of the main purposes of artifact evaluation is to enable the AEC to independently validate claims made in the paper. For this purpose, please do not just ask the AEC to run a bunch of scripts and say "QED". It is important to list down items from the paper and cross-reference them with data from the artifact. For example, your README could say:
+
+```
+# Validate Results (30 human-minutes + 5 compute-minutes)
+Run `./scripts/analyze_results.sh` for
+
+The output of the experiments will validate the following claims:
+- Table 1: `results/tab.csv` replicates Table 1 on Page 5.
+- Figure 2: `results/plot.pdf` replicates the plot in Figure 2 on Page 8.
+- Page 7, para 3: "We outperform the baseline by 2x". See `results/comparison.csv`, where the second column (our performance) should have a value that is twice as much as the third column (baseline).
+
+Our artifact does not validate the following claims:
+- On Page 8, we say X, but this cannot be validated without access to specialized hardware/people, so we leave it out of scope of artifact evaluation.
+
+...
+```
+
+## Tip F: Produce results in a standard human-readable format
+
+If you have plots in the paper, then it is generally a good idea to auto-generate plots from the results of experiments, instead of asking the AEC to stare at log files and compare numbers with figures in the paper. If you do the latter, then please adjust the estimation for "human-minutes" accordingly, as it takes longer for humans to read text than to read figures. Conversely, when reproducing tables from the paper, it is easier for a reviewer to read CSVs or nice ASCII-formatted tables rather than to read LaTeX-formatted tables. Please avoid auto-generating LaTeX, even if you did this for your paper. As a general rule of thumb, prefer standard human-readable formats (e.g. CSV or MarkDown) rather than custom human-readable formats (e.g. arbitrary log files) or formats intended for machines (e.g. JSON or XML).
+
 ## Tip F: Use consistent terminology
 
-
+It is not uncommon for authors to rename tools, techniques, theorems, and other named entities just a day or two before paper submission. This often leads to aritfacts and papers disagreeing on standard terminology. When submitting artifacts for AE, remember to refactor the artifact to use the same terminology used in the paper. Sometimes, this is not possible -- for example, if your artifact contains pre-baked results of experiments that were run before you decided on a terminology; in such cases, include some explanation of old/new terminology in your artifact README before you discuss how to run scripts or read provided files.
 
 # Tips for Artifact Evaluation Reviewers 
 
