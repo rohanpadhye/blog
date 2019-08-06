@@ -3,7 +3,7 @@ layout: post
 title: Tips for Artifact Evaluation
 ---
 
-A number of software research conferences incorporate an *artifact evaluation* (AE) process: authors of accepted papers can optionally submit their tools, code, data, and scripts for independent validation of the claims in their paper by an artifact evaluation committee (AEC). Personally, I'm a big fan of the AE process, as it promotes reproducible and reusable research.
+A number of software research conferences such as ICSE, ISSTA, ASE, PLDI, OOPSLA, SOSP and USENIX Security incorporate an *artifact evaluation* (AE) process: authors of accepted papers can optionally submit their tools, code, data, and scripts for independent validation of the claims in their paper by an artifact evaluation committee (AEC). Personally, I'm a big fan of the AE process, as it promotes reproducible and reusable research.
 
 But what makes a good artifact? On the surface, the AE process mirrors a paper submission process; for example, there is usually a Call for Artifacts (CFA), which provides some basic instructions, then the artifacts are submitted through a portal such as [HotCRP](http://hotcrp.com), and finally you get back reviews, possibly after one or more opportunities for rebuttal. However, the actual work required to produce and/or review an artifact is vastly different from the equivalent for papers.  Just like a CFP doesn't necessarily tell you what makes a good paper (or what will get your reviewers mad), the CFA does not say much about what an ideal artifact looks like (or what will make the AEC give up).
 
