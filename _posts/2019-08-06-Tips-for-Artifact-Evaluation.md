@@ -46,26 +46,28 @@ Artifact FooBar
 # Overview
 * Getting Started (10 human-minutes + 5 compute-minutes)
 * Build Stuff (2 human-minutes + 1 compute-hour)
-* Run Experiments (5 human-minutes + 24 compute-hours) 
+* Run Experiments (5 human-minutes + 3 compute-hours) 
 * Validate Results (30 human-minutes + 5 compute-minutes)
 
-# Getting Started
-Run `./install.sh` and go grab a coffee (5 minutes to install). 
-You will see no output while the script runs. 
-The script accesses the internet to download external dependencies such as Qux and Baz.
-Once complete, it will have created a directory called `stuff`.
-If this command fails, you can delete the `stuff` directory and try again.
+# Getting Started (10 human-minutes + 5 compute-minutes)
+* Follow the instructions at XYZ to run our VM/container (10 minutes read).
+* Run `./install.sh` and go grab a coffee (5 minutes to install). 
+  - You will see no output while the script runs. 
+  - The script accesses the internet to download external dependencies such as Qux and Baz.
+  - Once complete, it will have created a directory called `stuff`.
+  - If this command fails, you can delete the `stuff` directory and try again.
 ...
 
-# Build Stuff 
-Run `./build.sh stuff` and get some lunch -- this should take approx. one hour to complete. 
-You should see a progress bar while the command runs.
-Once complete, it will have created a `BUILD` directory. If this directory already exists, it will be overwritten.
+# Build Stuff (2 human-minutes + 1 compute-hour)
+* Run `./build.sh stuff` and get some lunch -- this should take ~1 hour to complete. 
+  - You should see a progress bar while the command runs.
+  - Once complete, it will have created a `BUILD` directory. 
+  - If the `BUILD` directory already exists, it will be overwritten.
 ...
 
 ~~~
 
-The above example also shows some elements that form the next tip...
+The example above also shows some elements from our next tip...
 
 ## Tip 3: Explain side-effects before they occur
 
@@ -82,13 +84,16 @@ Many papers report results of experiments that can take very long to compute. Fo
 A good way around this is to provide *alternative* experiment configurations, which can run with much fewer resources, even if they provide only approximate results. For such a mini-experiment, aim for less than 24 hours of compute on a single-core CPU. For example, you could provide the following in your artifact README:
 
 ~~~ markdown
-# Experiments (3 compute-hours)
-Run `./exp.sh 6 30m 1` to run our tool on only *6 benchmarks* for *30 minutes each* with only *1 repetition*. 
-This command takes only **3 hours** to run in total, and produces results that approximate the results shown in the paper.
-Since there is only 1 repetition, there will be no error bars.
+# Run Experiments (~3 compute-hours)
+* Run `./exp.sh 6 30m 1` to run our tool on only *6 benchmarks* for *30 minutes each* with only *1 repetition*. 
+  - This command takes only **3 hours** to run in total, and produces results that approximate the results shown in the paper.
+  - Since there is only 1 repetition, there will be no error bars in the final plots.
+  - Results will be saved in a directory called `results`.
 
-Run `./exp.sh 20 24h 10` to replicate the full experiments in the paper, which take 200 days to run 10 reps of all 20 benchmarks for 24 hours each. 
-Feel free to tweak the args to produce results with intermediate quality, depending on the time that you have.
+* Run `./exp.sh 20 24h 10` to replicate the full experiments in the paper
+  - This command takes **200 days** to run 10 reps of all 20 benchmarks for 24 hours each. 
+  - Feel free to tweak the args to produce results with intermediate quality, depending on the time that you have.
+  - Results will be saved in a directory called `results`.
 ~~~
 
 When providing means to produce approximate results, some AEC reviewers may not be satisfied that they can validate all the claims in your paper --- because it necessarily requires weeks or months to reproduce the tables or plots that you have in the paper. In such cases, you could provide the results of the long-running experiments in your aritfact package as a sort of *pre-baked* data-set. Make sure that the the output of *fresh-baked* approximate experiments (as shown above) is in exactly the same format as your *pre-baked* data set. That way, you could increase the reviewer's confidence that *had they performed the full set of experiments, they would have seen results similar to that shown in the paper*.
@@ -104,7 +109,7 @@ Now, how do you send this fix over to the AEC? One way would be to repackage the
 
 There are many ways to do this and I don't want to go into details for each method here. For Docker, you could post your container images to [Docker Hub](https://hub.docker.com/) and have the reviewers simply `docker pull`. Or you could embed a Git repository of your scripts/tools in the package that you send and simply have the reviewers perform a `git pull`. Either way, the important thing is to support the hotfixing mechanism *before you submit the first version*. This is often a step that authors forget to do in their initial submission.
 
-That said, hotfixing is not useful if your artifact cannot deal with failure recovery. A good artifact is one which can recover from crashes in any step of the README. For example, let's say the command `./exp.sh results` runs your experiments and produces results in the `results` directory, and this command crashes due to a bug in your aritfact. You've now identified a fix, pushed changes, and asked the reviewers to pull the latest version of the artifact, bug-free. A simple strategy would simply be to ask the reviewers to delete the `results` directory and run the command again. In short, try to avoid any steps in your artifact causing global, irreversible changes, which cannot be hotfixed. 
+That said, hotfixing is not useful if your artifact cannot deal with failure recovery. A good artifact is one which can recover from crashes in any step of the README. For example, let's say the command `./install.sh` downloads items into the `stuff` directory, and this command crashes due to a bug in your aritfact. You've now identified a fix, pushed changes, and asked the reviewers to pull the latest version of the artifact, bug-free. A simple strategy would simply be to ask the reviewers to delete the `stuff` directory and run the command again. In short, try to avoid any steps in your artifact causing global, irreversible changes, which cannot be hotfixed. 
 
 ## Tip 6: Cross-reference claims from the paper (and explain what's missing)
 
@@ -112,7 +117,6 @@ One of the main purposes of artifact evaluation is to enable the AEC to independ
 
 ~~~ markdown
 # Validate Results (30 human-minutes + 5 compute-minutes)
-Run `./exp.sh results` to run the experiments and produce results in the `results` directory.
 
 The output of the experiments will validate the following claims:
 - Table 1: `results/tab1.csv` reproduces Table 1 on Page 5.
