@@ -42,7 +42,7 @@ If the nature of your artifact *requires* you to run on special hardware---for e
 
 One of the **most important** things to keep in mind when submitting an artifact is the AEC's time. Reviewing an artifact takes considerably longer than reviewing a paper, and it is very hard work. Respect the AEC's time and do everything in your power to prevent the reviewers from having to stare at your artifact for hours wondering if they are doing the right thing.
 
-A simple way to address this issue is to clarify the amount of *human-time* and *compute-time* required for every single step in your artifact's README. In fact, I recommend providing an outline of each step with an estimate of human / compute time before going into the details. Here is an example artifact README:
+A simple way to address this issue is to clarify the amount of *human-time* and *compute-time* required for every single step in your artifact's README. In fact, I recommend providing an outline of each step with an estimate of human / compute time before going into the details. Here is an excerpt of a sample artifact README:
 
 ~~~ markdown
 Artifact FooBar
