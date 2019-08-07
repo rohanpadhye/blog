@@ -8,7 +8,7 @@ A number of software research conferences such as [ICSE](https://2019.icse-confe
 
 <!--On the surface, the AE process mirrors a paper submission process. For example, there is usually a Call for Artifacts (CFA), which provides some basic instructions, then the artifacts are submitted through a portal such as [HotCRP](http://hotcrp.com), and finally you get back reviews, possibly after one or more opportunities for rebuttal. However, the actual work that goes into producing and/or reviewing an artifact is vastly different from doing so for papers.  Just like a CFP doesn't necessarily tell you what makes a good paper, the CFA does not say much about what an ideal artifact looks like.--> 
 
-But what makes a good artifact? Although there exist [many](https://www.cs.cmu.edu/~mleone/how-to.html)  [great](https://www.cs.cmu.edu/~jrs/sins.html) [resources](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) for [writing good papers](https://homes.cs.washington.edu/~mernst/advice/write-technical-paper.html), as well as for [writing good rebuttals](https://www.st.cs.uni-saarland.de/zeller/onresearch/rebuttal-patterns.php3), I haven't found anything similar for producing good artifacts for AE. This is my attempt at filling the gap.
+But what makes a good artifact? Although there exist [many](https://www.cs.cmu.edu/~mleone/how-to.html)  [great](https://www.cs.cmu.edu/~jrs/sins.html) [resources](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) for [writing good papers](https://homes.cs.washington.edu/~mernst/advice/write-technical-paper.html), as well as for [writing good rebuttals](https://www.st.cs.uni-saarland.de/zeller/onresearch/rebuttal-patterns.php3), I haven't found anything similar for submitting artifacts for evaluation. This is my attempt at filling the gap.
 
 <!--more-->
 
@@ -154,4 +154,4 @@ This tip is more strategic than tactical: it may not help you if your AE deadlin
 
 ---
 
-If you have experience with artifact evaluation yourself and have more tips to add, some insights regarding other types of artifacts (e.g. survey data, user studies, or mechanized proofs), or if you vehemently disagree with anything in this post, please let me know.
+If you have experience with artifact evaluation yourself and have more tips to add, some insights regarding other types of artifacts (e.g. survey data, user studies, or mechanized proofs), or if you vehemently disagree with anything in this post, please let me know via email or twitter.
