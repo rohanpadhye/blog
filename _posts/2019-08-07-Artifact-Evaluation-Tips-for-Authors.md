@@ -23,7 +23,7 @@ This post is heavily biased towards PL/SE/Systems-ish artifacts that involve too
 
 ## Tip 1: Submit a friendly package
 
-The first decision you would need to make is how to package your artifact. Should you send a large ZIP file with everything crammed in? Should you send a single Docker container or VM image? What should you put in these packages? There are two sub-parts to this tip:
+The first decision you would need to make is how to package your artifact. There are two sub-parts to this tip:
 
 ### Require the fewest dependencies
 
@@ -31,7 +31,7 @@ This one is obvious. Don't expect the AEC to install dozens of different depende
 
 ### Do not expect the AEC to have lots of physical resources
 
-This one is less obvious. It is probably not the best idea to submit humongous artifacts (e.g. over 100GB in size) or that require vast amounts of compute resources (e.g. 32 cores with over 256GB RAM). The exact threshold for okay versus not okay probably depends on the type of conference and the tech that is common at the time of submission. If you think you are on the borderline, it is a good idea to ask the chairs what is considered acceptable. Most artifacts that I've worked with can be packaged in under 10GB, require less than 16GB of RAM, and can be run on a single core machine (even if the authors used a different setup themselves).
+This one is less obvious. It is probably not the best idea to submit humongous artifacts (e.g. over 100GB in size) or that require vast amounts of compute resources (e.g. 32 cores with over 256GB RAM). The exact threshold for okay versus not okay probably depends on the type of conference and what "commodity hardware" means at the time of submission. If you think you are on the borderline, it is a good idea to ask the chairs what is considered acceptable. Most artifacts that I've worked with can be packaged in under 10GB, require less than 16GB of RAM, and can be run on a single core machine (even if the authors used a different setup themselves).
 
 If your artifact requires a bunch of data that is already publicly available online---for example, a benchmark suite consisting of open-source software---then you could avoid packaging such data in the artifact and instead provide scripts that will download the benchmarks at run-time. This doesn't reduce the overall storage requirement for the AEC, but reduces the bloat in the initial submission. It allows the AEC to get your artifact up and running much quicker in order to report issues with basic functionality. Not packaging external resources into your artifact also lets you avoid getting into trouble with conflicting licensing requirements, should you want to make your artifacts publicly available eventually.
 
@@ -138,7 +138,7 @@ If you have plots in the paper, then it is generally a good idea to auto-generat
 
 ## Tip 8: Use consistent terminology
 
-It is not uncommon for authors to rename tools, techniques, theorems, and other named or acronymized entities just a day or two before paper submission. This often leads to aritfacts and papers disagreeing on standard terminology, since the core of the artifacts are often developed before the paper is finalized and submitted. When submitting artifacts for AE, remember to refactor the artifact to use the same terminology used in the paper. Sometimes, this is not possible -- for example, if your artifact contains pre-baked results of experiments that were run before you decided on a terminology. In such cases, include some explanation of old vs new terminology in your artifact README before you discuss how to run scripts or read provided files.
+It is not uncommon for authors to rename tools, techniques, theorems, and other named or acronymized entities just a day or two before paper submission. This often leads to aritfacts and papers disagreeing on standard terminology, since the core of the artifacts are often developed before the paper is finalized and submitted. When submitting artifacts for AE, remember to refactor the artifact to use the same terminology used in the paper. Sometimes, this is not possible---for example, if your artifact contains pre-baked results of experiments that were run before you decided on a terminology. In such cases, include some explanation of old vs new terminology in your artifact README before you discuss how to run scripts or read provided files.
 
 ## Tip 9: Make your artifact reusable
 
