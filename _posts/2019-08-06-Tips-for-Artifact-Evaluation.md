@@ -7,11 +7,13 @@ A number of software research conferences such as [ICSE](https://2019.icse-confe
 
 But what makes a good artifact? On the surface, the AE process mirrors a paper submission process. For example, there is usually a Call for Artifacts (CFA), which provides some basic instructions, then the artifacts are submitted through a portal such as [HotCRP](http://hotcrp.com), and finally you get back reviews, possibly after one or more opportunities for rebuttal. However, the actual work that goes into producing and/or reviewing an artifact is vastly different from doing so for papers.  Just like a CFP doesn't necessarily tell you what makes a good paper (or what will get your reviewers mad), the CFA does not say much about what an ideal artifact looks like (or what will make the AEC give up).
 
-In this post, I would like to share some insights that I gained while participating in two artifact evaluation committees ([PLDI 2018](https://pldi18.sigplan.org/committee/pldi-2018-artifact-evaluation-committee) and [PLDI 2019](https://pldi19.sigplan.org/committee/pldi-2019-pldi-research-artifacts-artifact-evaluation-committee)) as well as while submitting two artifacts* of my own as first author ([ISSTA 2019](https://conf.researchr.org/details/issta-2019/issta-2019-Technical-Papers/14/Semantic-Fuzzing-with-Zest) and [OOPSLA 2019](https://2019.splashcon.org/details/splash-2019-oopsla/57/FuzzFactory-Domain-Specific-Fuzzing-with-Waypoints)). I am by no means an expert on this topic. However, I believe that I've identified some common pain points that make the AE process annoying for both authors and reviewers. Some of the insights in this post stem from my own past mistakes. I hope that this post helps future authors (and perhaps even reviewers and chairs) in ensuring that AE goes smoothly.
+In this post, I would like to share some insights that I gained while participating in two artifact evaluation committees ([PLDI 2018](https://pldi18.sigplan.org/committee/pldi-2018-artifact-evaluation-committee) and [PLDI 2019](https://pldi19.sigplan.org/committee/pldi-2019-pldi-research-artifacts-artifact-evaluation-committee)) as well as while submitting two artifacts* of my own ([ISSTA 2019](https://conf.researchr.org/details/issta-2019/issta-2019-Technical-Papers/14/Semantic-Fuzzing-with-Zest) and [OOPSLA 2019](https://2019.splashcon.org/details/splash-2019-oopsla/57/FuzzFactory-Domain-Specific-Fuzzing-with-Waypoints)). I am by no means an expert on this topic. However, I believe that I've identified some common pain points that make the AE process annoying for both authors and reviewers. Some of the insights in this post stem from my own past mistakes. I hope that this post helps future authors (and perhaps even reviewers and chairs) in ensuring that AE goes smoothly.
 
 This post is heavily biased towards PL/SE/Systems-ish artifacts that involve tools, scripts, benchmarks, and experiments, since I've had most experience with such type of artifacts.
 
 \* One of these won a [Distinguished Artifact Award](https://twitter.com/moarbugs/status/1151701669781966848)!
+
+Now, on to the tips...
 
 * TOC
 {:toc}
@@ -37,7 +39,7 @@ If the nature of your artifact *requires* you to run on special hardware --- for
 
 One of the **most important** things to keep in mind when submitting an artifact is the AEC's time. Reviewing an artifact takes considerably longer than reviewing a paper, and it is very hard work. Respect the AEC's time and do everything in your power to prevent the reviewers from having to stare at your artifact for hours wondering if they are doing the right thing.
 
-A simple way to address this issue is to clarify the amount of *human-time* and *compute-time* required for *every, single, step* in your README. In fact, I recommend providing an outline of each step with an estimate of human / compute time before going into the details. Here is an example artifact README:
+A simple way to address this issue is to clarify the amount of *human-time* and *compute-time* required for *every, single, step* in your artifact's README. In fact, I recommend providing an outline of each step with an estimate of human / compute time before going into the details. Here is an example artifact README:
 
 ~~~ markdown
 Artifact FooBar
@@ -67,9 +69,11 @@ The above example also shows some elements that form the next tip...
 
 ## Tip 3: Explain side-effects before they occur
 
-Whenever you ask the reader to perform an action, such as executing a command or script, clarify what side-effects that command will have. For example, does it create or modify any files? Does it create any new directories? Are the filenames dependent on the command-line arguments that you provide? Will the command try to access the internet? Will running the command lead to large amounts of additional disk space being used? What output should you expect if everything goes fine?
+In the artifact's README, whenever you ask the reviewer to perform an action, such as executing a command or script, clarify what side-effects that command will have. For example, does it create or modify any files? Does it create any new directories? Are the filenames dependent on the command-line arguments that you provide? Will the command try to access the internet? Will running the command lead to large amounts of additional disk space being used? What output should you expect if everything goes fine?
 
-Such information helps AE reviewers sanity check. It also prevents errors in one step cascading to subsequent steps because the reviewer did not realize that some step failed. Cascading errors makes for very hard debugging, especially when the AE process allows only a fixed number of rebuttal opportunities. Try to help reviewers identify failing steps quickly.
+Such information helps AE reviewers sanity check. It also prevents errors in one step cascading to subsequent steps because the reviewer did not realize that some step failed. Cascading errors makes for very hard debugging, especially when the AE process allows only a fixed number of rebuttal opportunities. Try to help reviewers identify failing steps quickly. 
+
+Also, do not penalize reviewers for running the same command multiple times. Ideally, every step in the README should be [idempotent](https://en.wikipedia.org/wiki/Idempotence).
 
 ## Tip 4: Provide (almost) instant gratification
 
@@ -100,7 +104,7 @@ Now, how do you send this fix over to the AEC? One way would be to repackage the
 
 There are many ways to do this and I don't want to go into details for each method here. For Docker, you could post your container images to [Docker Hub](https://hub.docker.com/) and have the reviewers simply `docker pull`. Or you could embed a Git repository of your scripts/tools in the package that you send and simply have the reviewers perform a `git pull`. Either way, the important thing is to support the hotfixing mechanism *before you submit the first version*. This is often a step that authors forget to do in their initial submission.
 
-That said, hotfixing is not useful if your artifact cannot deal with failure recovery. A good artifact is one which can recover from crashes in any step of the README. For example, let's say the command `./exp.sh results` runs your experiments and produces results in the `results` directory, and this command crashes due to a bug in your aritfact. You've now identified a fix, pushed changes, and asked the reviewers to pull the latest version of the artifact, bug-free. A simple strategy would simply be to ask the reviewers to delete the `results` directory and run the command again. In short, try to avoid any steps in your artifact causing global, irreversible changes, which cannot be hotfixed.
+That said, hotfixing is not useful if your artifact cannot deal with failure recovery. A good artifact is one which can recover from crashes in any step of the README. For example, let's say the command `./exp.sh results` runs your experiments and produces results in the `results` directory, and this command crashes due to a bug in your aritfact. You've now identified a fix, pushed changes, and asked the reviewers to pull the latest version of the artifact, bug-free. A simple strategy would simply be to ask the reviewers to delete the `results` directory and run the command again. In short, try to avoid any steps in your artifact causing global, irreversible changes, which cannot be hotfixed. 
 
 ## Tip 6: Cross-reference claims from the paper (and explain what's missing)
 
