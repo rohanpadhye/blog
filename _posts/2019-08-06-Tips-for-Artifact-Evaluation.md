@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Tips for Artifact Evaluation
-image: images/acm-artifact-badges.png
-
 ---
 
 A number of software research conferences such as [ICSE](https://2019.icse-conferences.org/track/icse-2019-Artifact-Evaluation), [ISSTA](https://conf.researchr.org/track/issta-2019/issta-2019-Artifact-Evaluation-#About), [PLDI](https://pldi19.sigplan.org/track/pldi-2019-PLDI-Research-Artifacts), [POPL](https://popl19.sigplan.org/track/POPL-2019-Artifact-Evaluation), [OOPSLA](https://2019.splashcon.org/track/splash-2019-Artifacts#Call-for-Artifacts), [SOSP](https://sysartifacts.github.io/), and [USENIX Security](https://www.usenix.org/conference/usenixsecurity20/artifact-evaluation-information) incorporate an *artifact evaluation* (AE) process: authors of (conditionally) accepted papers can optionally submit their tools, code, data, and scripts for independent validation of the claims in their paper by an artifact evaluation committee (AEC). Papers with accepted artifacts get stamped with [one or more badges](https://www.acm.org/publications/policies/artifact-review-badging). Personally, I'm a big fan of the AE process, as it promotes reproducible and reusable research.
