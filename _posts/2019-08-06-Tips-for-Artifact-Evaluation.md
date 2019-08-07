@@ -13,8 +13,6 @@ This post is heavily biased towards PL/SE/Systems-ish artifacts that involve too
 
 \* One of these won a [Distinguished Artifact Award](https://twitter.com/moarbugs/status/1151701669781966848)!
 
-Now, on to the tips...
-
 * TOC
 {:toc}
 
@@ -48,6 +46,7 @@ Artifact FooBar
 * Build Stuff (2 human-minutes + 1 compute-hour)
 * Run Experiments (5 human-minutes + 3 compute-hours) 
 * Validate Results (30 human-minutes + 5 compute-minutes)
+* How to reuse beyond paper (20 human-minutes)
 
 # Getting Started (10 human-minutes + 5 compute-minutes)
 * Follow the instructions at XYZ to run our VM/container (10 minutes read).
@@ -136,9 +135,15 @@ If you have plots in the paper, then it is generally a good idea to auto-generat
 
 It is not uncommon for authors to rename tools, techniques, theorems, and other named or acronymized entities just a day or two before paper submission. This often leads to aritfacts and papers disagreeing on standard terminology, since the core of the artifacts are often developed before the paper is finalized and submitted. When submitting artifacts for AE, remember to refactor the artifact to use the same terminology used in the paper. Sometimes, this is not possible -- for example, if your artifact contains pre-baked results of experiments that were run before you decided on a terminology. In such cases, include some explanation of old vs new terminology in your artifact README before you discuss how to run scripts or read provided files.
 
-## Tip 9: Join an Artifact Evaluation Committee
+## Tip 9: Make your artifact reusable
 
-This is more strategic than tactical: it may not help you if your AE deadline is coming up soon. However, if you are a graduate student with some prior publications, try to get on the AEC of a conference in your area*. It's a lot of work, but a great way to get exposure to artifacts produced by other researchers. Not only will it help you in submitting your own artifacts for evaluation in the future, but it could also inspire you to refine the way you produce your own research tools. For example, my experience with being on an AEC helped me learn from other researchers how to manage large experiments using Docker and Amazon AWS. I used this knowledge to rapidly design the experimental evaluation for a subsequent paper that I was authoring... and I made the deadline in (personally) record time! 
+The point of AE is not just to get a badge on your paper. Well, it sort of is, but there should also be a larger goal: to make your research reusable for others*. This means that the research artifacts you produce should be easily reusable on datasets/inputs/workloads that are NOT part of the evaluation presented in your paper. To that end, I recommend including a section on "how to reuse beyond the paper" in your artifact README. This section need only describe the steps to run a single instance of your research tool or system for a small use case. Including such a section also forces you to ensure that your artifact has an understandable user interface, be it something as simple as sensible command-line arguments and readable success/error messages. [Some conferences](https://conf.researchr.org/track/issta-2019/issta-2019-Artifact-Evaluation-) provide explicit badges for reusability. Even if not, completing this section will give the AEC more confidence that your artifact is not something that has been overfitted for the evaluation in the submitted paper.
+
+\* This may not be applicable to some types of artifacts such as mechanized proofs or results of empirical studies.
+
+## Tip 10: Join an Artifact Evaluation Committee
+
+This tip is more strategic than tactical: it may not help you if your AE deadline is coming up soon. However, if you are a graduate student with some prior publications, try to get on the AEC of a conference in your area*. It's a lot of work, but a great way to get exposure to artifacts produced by other researchers. Not only will it help you in submitting your own artifacts for evaluation in the future, but it could also inspire you to refine the way you produce your own research tools. For example, my experience with being on an AEC helped me learn from other researchers how to manage large experiments using Docker and Amazon AWS. I used this knowledge to rapidly design the experimental evaluation for a subsequent paper that I was authoring... and I made the deadline in (personally) record time! 
 
 \* Many AECs are formed via open invitation for applications -- typically you submit a short bio about yourself via a Google Form or similar [[Exhibit A](https://twitter.com/poplconf/status/1135895797520900097), [Exhibit B](https://twitter.com/vj_chidambaram/status/1151977134593908736)]. If you don't find one of these, look for conferences scheduled for about 3-6 months in the future that do not have an AEC finalized and email the AE chairs to find out how they will form the committee (chairs: apologies for the spam that I'm going to send your way). My guess is that they will be happy to talk to motivated grad students who are interested in such roles, especially if you have prior publications or AE experience.
 
