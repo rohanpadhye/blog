@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Artifact Evaluation: Tips for Authors
+title: "Artifact Evaluation: Tips for Authors"
 excerpt_separator: <!--more-->
 ---
 
