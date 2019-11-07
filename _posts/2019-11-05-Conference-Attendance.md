@@ -12,7 +12,7 @@ To get a better idea of what some of the conferences in my field do, I embarked 
 <!--more-->
 
 
-There are several different strategies that I have seen (with overlaps):
+There are several different inclusive strategies that conference organizers can consider (with overlaps between them):
 
 * Implementing a policy for rotating conference venues around the world. [ICSE](http://www.icse-conferences.org) is one of the leaders in this space: the conference location continuously rotates between Europe, North America, and other continents. I was surprised to find that [only two conferences between ICSE 2014 and ICSE 2023](http://www.icse-conferences.org/history.html) were assigned a location in the USA, which is the most common host country for other conferences in this field.
 * Choosing a conference venue in [a country that is welcoming to visitors](https://www.passportindex.org/byWelcomingRank.php). [ICLR 2020](https://iclr.cc/) has chosen to hold the conference in Ethiopia ([a rank #1 location](https://www.passportindex.org/comparebyDestination.php?p1=et&fl=&s=yes)). 
@@ -50,14 +50,15 @@ However, the [OOPSLA 2017](https://2017.splashcon.org/track/splash-2017-OOPSLA#i
 
 **Locations 2011–2020**: USA (x6), UK (x2), Spain, China.
 
-When I first started collecting data for this post, [PLDI 2020](https://pldi20.sigplan.org/track/pldi-2020-papers) did not have any information about visa-related issues on their website. I used the contact form on the website to ask about this information. The [General Chair](https://pldi20.sigplan.org/profile/alastairdonaldson) and [Program Chair](https://pldi20.sigplan.org/profile/eminatorlak) responded soon: they [updated their CFP](https://pldi20.sigplan.org/track/pldi-2020-papers#accepted-papers) to include the following statement:
+When I first started collecting data for this post, [PLDI 2020](https://pldi20.sigplan.org/track/pldi-2020-papers) did not have any information about visa-related issues on their website. I used the contact form on the website to ask about this information. The [General Chair](https://pldi20.sigplan.org/profile/alastairdonaldson) and [Program Chair](https://pldi20.sigplan.org/profile/eminatorlak) responded soon: they [updated their CFP](https://pldi20.sigplan.org/track/pldi-2020-papers#accepted-papers) to include the following statement (emphasis mine):
 
-> PLDI welcomes all authors, regardless of nationality. If authors are unable despite reasonable effort to obtain visas to travel to the conference, we will make arrangements to enable remote participation or presentation by another attendee on behalf of the authors.
+> PLDI welcomes all authors, **regardless of nationality**. If authors are unable despite reasonable effort to obtain visas to travel to the conference, we will make arrangements to enable **remote participation or presentation by another attendee** on behalf of the authors.
 
 I'm glad that my poking around prompted this addition :-)
 
 ## ICFP
 
+**Locations 2011–2020**: USA (x3), Germany, UK, Japan (x2), Canada, Sweden, Denmark.
 
 
 The [ICFP 2020](https://icfp20.sigplan.org/track/icfp-2020-papers) (to be held in New Jersey, USA) CFP currently states:
@@ -68,18 +69,17 @@ I could not find any information on their website about visa-related issues. I h
 
 Interestingly, this makes ICFP the only one of the four ACM SIGPLAN conferences that I surveyed to not address the visa issue in their CFP this year. 
 
-However, ICFP's locations are by far the most diverse among these SIGPLAN conferences:
+However, ICFP's locations are the most diverse among these SIGPLAN conferences/
 
-**Locations 2011–2020**: USA (x3), Germany, UK, Japan (x2), Canada, Sweden, Denmark.
 
 ## ICST
 
+**Locations 2011–2020**: USA (x2), Portugal, China, Sweden, Japan,  Austria, Luxembourg, Canada, Germany.
 
 [ICST 2020](https://icst2020.info/track/icst-2020-papers#Call-for-Papers) will be held in Porto, Portugal. I could not find any information on their website regarding visa-related issues. I have inquired about their policy via the contact form on October 27, and am still awaiting a response as of November 6.
 
-However, ICST appears to be located at a very diverse set of locations:
+However, ICST appears to be located at a very diverse set of locations over the past ten years.
 
-**Locations 2011–2020**: USA (x2), Portugal, China, Sweden, Japan,  Austria, Luxembourg, Canada, Germany.
 
 ## ICSE
 
@@ -93,7 +93,7 @@ I learned that the visa issue is something that the ICSE Steering Committee is s
 
 The rest of the response, concerning only the ICSE 2020 edition in particular, follows (emphasis mine):
 
-> For 2020, ICSE in general won't support remote presentations, because we believe that the most powerful thing a conference offers is community and the ability to interact with others directly and in person. Moreover, the costs of running a conference make it important that people attend, as well.  For this reason, ICSE 2020 also does require (and this has been true of all ICSEs in the past decade) that at least one author of a paper register for and attend the entire conference. [...] If no author of a given accepted paper registers for the conference, the paper is withdrawn from the proceedings and does not appear in any digital library.   The same will occur if an author registers, but then, nobody appears in person at the conference to present the paper.
+> **For 2020, ICSE in general won't support remote presentations**, because we believe that the most powerful thing a conference offers is community and the ability to interact with others directly and in person. Moreover, the costs of running a conference make it important that people attend, as well.  For this reason, ICSE 2020 also does require (and this has been true of all ICSEs in the past decade) that at least one author of a paper register for and attend the entire conference. [...] **If no author of a given accepted paper registers for the conference, the paper is withdrawn from the proceedings and does not appear in any digital library**.   The same will occur if an author registers, but then, nobody appears in person at the conference to present the paper.
 >
 >  This all said, [...], if an author of an accepted paper were to register for ICSE 2020, and **due to visa problems could not attend**, and if they could provide evidence that they had made every effort (including acting in a timely manner) to obtain a visa, **we'd likely try to find a way to accommodate them**.
 
@@ -113,7 +113,7 @@ Similar to ICSE, I found a page on the ASE 2019 website on [Diversity and Inclus
 
 The [full response, to four specific questions that I had asked, can be found here](https://blog.padhye.org/ase-2019-response-on-visa-issues).
 
-## CSCW 2019
+## CSCW
 
 The [CSCW 2019](https://cscw.acm.org/2019/submit-papers.html) statement is one of the most inclusive ones that I have seen. It explicitly addresses (a) paper publication in the proceedings, (b) remote presentation, and (c) presentation at alternate locations.
 
@@ -125,6 +125,10 @@ The [CSCW 2019](https://cscw.acm.org/2019/submit-papers.html) statement is one o
 
 It is worth noting that the first paragraph also appeared in the CFP of [CSCW 2018](https://cscw.acm.org/2018/submit/papers.html).
 
+
+## CHI
+
+## SOSP
 
 ## Overarching statements (ACM and IEEE)
 
