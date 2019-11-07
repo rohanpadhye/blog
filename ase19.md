@@ -4,7 +4,7 @@ title: Response from ASE 2019 General Chair on Visa Issues
 permalink: /ase-2019-response-on-visa-issues
 ---
 
-Here is the full response given by ASE 2018 General Chair Tom Zimmermann over email to four questions that I had asked.
+Here is the full response given by ASE 2019 [General Chair Tom Zimmermann](https://2019.ase-conferences.org/profile/tomzimmermann), over email, to four specific questions asked by me.
 
 ---
 
