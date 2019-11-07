@@ -1,50 +1,64 @@
 ---
 layout: post
-title: "Conference Attendance"
+title: "Equity and Inclusion in International Conference Attendance"
 excerpt_separator: <!--more-->
 draft: true
 ---
 
-What can conference organizers do to minimize the impact of visa and travel restrictions on attendees, especially on student authors from developing nations?
+Most recently, I learned that [a third of the participants](https://twitter.com/timnitGebru/status/1191970600941707265) at the [*Black in AI* workshop at NeurIPS'19](https://blackinai.github.io/workshop/2019/cfp/) and [roughly the same fraction](https://twitter.com/cestlemieux/status/1188464387662725121) of poster presenters at [the AI Systems workshop at SOSP'19](http://learningsys.org/sosp19) could not attend due to visa issues. These are of course a very small sample of many many such cases that occur every year. 
 
-To get a better idea of what some of the conferences in my field do, I embarked on an informal study. I scanned the websites of some conferences in my field or related areas for their policies regarding author attendance and visa issues. If I couldn't find any information on the website, I contacted the general chairs either via the web-based contact form, if present, or else via email. Here's what I found out.
+Naturally, visa issues disproportionately affect members of developing nations and underrepresented communities. Visa refusals are also more common for first-time foreign travellers, which means that students are likely the most affected group in the population. 
+
+As academics, we cannot make sweeping changes  in international relations and policy. As a starting point, I would like to quote some definitions from the [ICSE 2019 diversity and inclusion plan](https://2019.icse-conferences.org/attending/diversity-and-inclusion):
+> **Equity** at its heart is about removing barriers, biases, and obstacles that impede equal access and opportunity to succeed.
+> [...]
+> **Inclusion** is about creating a conference program and environment that is free from discrimination and where every participant feels welcome, included, respected, and safe.
+
+Assuming that we all share these goals, what can we do to increase equity and inclusion for those affected by barriers such as visa requirements, obstacles such as travel restrictions, and to make international participants feel welcome and included?
+
+To get a better idea, I embarked on an informal study. I scanned the websites of some conferences in my field or related areas for their policies regarding author attendance and visa issues. If I couldn't find any information on the website, I contacted the general chairs either via the web-based contact form, if present, or else via email. Here's what I found out.
 
 <!--more-->
 
 
 There are several different inclusive strategies that conference organizers can consider (with overlaps between them):
 
-* Implementing a policy for rotating conference venues around the world. [ICSE](http://www.icse-conferences.org) is one of the leaders in this space: the conference location continuously rotates between Europe, North America, and other continents. I was surprised to find that [only two conferences between ICSE 2014 and ICSE 2023](http://www.icse-conferences.org/history.html) were assigned a location in the USA, which is the most common host country for other conferences in this field.
-* Choosing a conference venue in [a country that is welcoming to visitors](https://www.passportindex.org/byWelcomingRank.php). [ICLR 2020](https://iclr.cc/) has chosen to hold the conference in Ethiopia ([a rank #1 location](https://www.passportindex.org/comparebyDestination.php?p1=et&fl=&s=yes)). 
-* Addressing the visa issue explicitly in the *Call for Papers* (CFP), and providing means of alternate presentation for affected authors of accepted papers. Such statements can help potential authors resolve worries about the risk of losing out on publication, should their travel be restricted after paper acceptance. 
-	* [OOPSLA](https://www.sigplan.org/Conferences/OOPSLA/) and [POPL](https://www.sigplan.org/Conferences/POPL/) have been leaders in this space since 2017 and 2018 respectively, by supporting remote presentations. They have recently been joined by another SIGPLAN conference: [PLDI 2020](https://pldi20.sigplan.org/track/pldi-2020-papers#accepted-papers).
-	* Another strategy is to allow authors to present their work in person at a sister conference, usually held in a different country. [CSCW and ECSCW](https://cscw.acm.org/2019/submit-papers.html) are some of the leaders in this space.
-* Support affected authors with alternate means of presentation (e.g. allowing someone else at the conference to present), without explicitly mentioning this on the website. I have been able to get official policies out-of-band from [ICSE 2020](https://conf.researchr.org/home/icse-2020) and [ASE 2019](https://2019.ase-conferences.org/) (see below).
+* **Rotating conference venues around the world**. [ICSE](http://www.icse-conferences.org) is a great example: the conference location continuously rotates between Europe, North America, and other continents. I was surprised to find that [only two conferences between ICSE 2014 and ICSE 2023](http://www.icse-conferences.org/history.html) were assigned a location in the USA, which is the most common host country for many conferences in this field.
+* **Locating the conference in [a country that is welcoming to visitors](https://www.passportindex.org/byWelcomingRank.php)**. For example, [ICLR 2020](https://iclr.cc/) will be held in Ethiopia ([a rank #1 location](https://www.passportindex.org/comparebyDestination.php?p1=et&fl=&s=yes)). 
+* **Addressing the visa issue explicitly in the *Call for Papers* (CFP)**, and providing means of alternate presentation for affected authors of accepted papers. Such statements can help potential authors resolve worries about the risk of losing out on publication, should their travel be restricted after paper acceptance. 
+	* **Remote presentation**: [OOPSLA](https://www.sigplan.org/Conferences/OOPSLA/) and [POPL](https://www.sigplan.org/Conferences/POPL/) have indicated support for *authors of all nationalities* in their CFPs since 2017 and 2018 respectively. They have recently been joined by another SIGPLAN conference: [PLDI 2020](https://pldi20.sigplan.org/track/pldi-2020-papers#accepted-papers). 
+	* **Deferred presentation**: Another strategy is to allow authors to present their work in person at a sister conference, usually held in a different country. [CSCW and ECSCW](https://cscw.acm.org/2019/submit-papers.html) are some of the leaders in this space.
+* Support affected authors with alternate means of presentation (e.g. remote video or allowing someone else at the conference to present), without explicitly mentioning this on the website. For example, I have been able to get official policies out-of-band from [ICSE 2020](https://conf.researchr.org/home/icse-2020) and [ASE 2019](https://2019.ase-conferences.org/) upon request (see below).
 
 
-Per-conference details follow. If you would like to add to this list, please [send me an email](http://rohan.padhye.org).
+The rest of this post outlines the results of my survey of individual conferences. For each conference, I've tried to gather two types of data: (1) conference locations for the last 10 years, (2) what can authors of accepted papers do if they cannot present in person due to visa issues.
+
+If you would like to add to this list, please [send me an email](http://rohan.padhye.org).
 
 * TOC
 {:toc}
 
 
+
+## OOPSLA
+
+**Locations 2011–2020**: USA (x7), Greece, Canada, Netherlands. 
+
+OOPSLA is particularly bad at diversity in conference locations. It has only been held outside of North America *twice* in its 35+ year history, the first one being in 2016!!
+
+However, the [OOPSLA 2017](https://2017.splashcon.org/track/splash-2017-OOPSLA#information-for-authors-of-accepted-papers), [OOPSLA 2018](https://conf.researchr.org/track/splash-2018/splash-2018-OOPSLA#Instructions) and [OOPSLA 2019](https://conf.researchr.org/track/splash-2019/splash-2019-oopsla#information-for-authors-of-accepted-papers) Call for Papers have made strong statements of support for international attendees. I quote the one from 2019 below (emphasis mine):
+
+> We welcome all authors to attend OOPSLA and present accepted papers, **regardless of nationality**. If any author has visa-related difficulties, we will make arrangements to enable **remote participation**.
+
 ## POPL
 
 **Locations 2011–2020**: USA (x6), Portugal, France, India, Italy.
 
-The [POPL 2018 Call for Papers](https://popl18.sigplan.org/track/POPL-2018-papers#Call-for-Papers) itself had this statement (emphasis mine):
+The [POPL 2018 Call for Papers](https://popl18.sigplan.org/track/POPL-2018-papers#Call-for-Papers) had a statement similar to that of OOPSLA (emphasis mine):
 
-> **POPL welcomes all authors, regardless of nationality**. If authors are unable despite reasonable effort to obtain visas to travel to the conference, **arrangements to enable remote participation will be made**. In such cases, the general chair, Ranjit Jhala, should be contacted for guidance.
+> POPL welcomes all authors, **regardless of nationality**. If authors are unable despite reasonable effort to obtain visas to travel to the conference, **arrangements to enable remote participation will be made**. In such cases, the general chair, Ranjit Jhala, should be contacted for guidance.
 
 [POPL 2019](https://popl19.sigplan.org/track/POPL-2019-Research-Papers?track=POPL%20Research%20Papers#publication-and-presentation-requirements) and [POPL 2020](https://popl20.sigplan.org/track/POPL-2020-Research-Papers#publication-and-presentation-requirements) have followed suit.
-
-## OOPSLA
-
-**Locations 2011–2020**: USA (x7), Greece, Canada, Netherlands. It is worth noting that OOPSLA has only been held outside of North America *twice* in its 35+ year history, the first one being in 2016!!
-
-However, the [OOPSLA 2017](https://2017.splashcon.org/track/splash-2017-OOPSLA#information-for-authors-of-accepted-papers), [OOPSLA 2018](https://conf.researchr.org/track/splash-2018/splash-2018-OOPSLA#Instructions) and [OOPSLA 2019](https://conf.researchr.org/track/splash-2019/splash-2019-oopsla#information-for-authors-of-accepted-papers) Call for Papers have had a similar statement. I quote the one from 2019 below (emphasis mine):
-
-> We welcome all authors to attend OOPSLA and present accepted papers, **regardless of nationality**. If any author has visa-related difficulties, we will make arrangements to enable **remote participation**.
 
 ## PLDI
 
@@ -54,31 +68,23 @@ When I first started collecting data for this post, [PLDI 2020](https://pldi20.s
 
 > PLDI welcomes all authors, **regardless of nationality**. If authors are unable despite reasonable effort to obtain visas to travel to the conference, we will make arrangements to enable **remote participation or presentation by another attendee** on behalf of the authors.
 
-I'm glad that my poking around prompted this addition :-)
+I'm glad that my poking around prompted this welcome addition :-).
 
 ## ICFP
 
 **Locations 2011–2020**: USA (x3), Germany, UK, Japan (x2), Canada, Sweden, Denmark.
 
 
-The [ICFP 2020](https://icfp20.sigplan.org/track/icfp-2020-papers) (to be held in New Jersey, USA) CFP currently states:
+The CFP for [ICFP 2020](https://icfp20.sigplan.org/track/icfp-2020-papers) (to be held in New Jersey, USA) currently states:
 
 > At least one author of each accepted submissions will be expected to attend and present that paper at the conference. 
 
 I could not find any information on their website about visa-related issues. I have inquired about their policy via email on November 3, and am still awaiting a response as of November 6.
 
-Interestingly, this makes ICFP the only one of the four ACM SIGPLAN conferences that I surveyed to not address the visa issue in their CFP this year. 
+Interestingly, this makes ICFP the only one of the four flagship ACM SIGPLAN conferences that I surveyed to not address the visa issue in their CFP this year. 
 
-However, ICFP's locations are the most diverse among these SIGPLAN conferences/
+However, ICFP's locations have been the most diverse among these SIGPLAN conferences.
 
-
-## ICST
-
-**Locations 2011–2020**: USA (x2), Portugal, China, Sweden, Japan,  Austria, Luxembourg, Canada, Germany.
-
-[ICST 2020](https://icst2020.info/track/icst-2020-papers#Call-for-Papers) will be held in Porto, Portugal. I could not find any information on their website regarding visa-related issues. I have inquired about their policy via the contact form on October 27, and am still awaiting a response as of November 6.
-
-However, ICST appears to be located at a very diverse set of locations over the past ten years.
 
 
 ## ICSE
@@ -113,6 +119,15 @@ Similar to ICSE, I found a page on the ASE 2019 website on [Diversity and Inclus
 
 The [full response, to four specific questions that I had asked, can be found here](https://blog.padhye.org/ase-2019-response-on-visa-issues).
 
+
+## ICST
+
+**Locations 2011–2020**: USA (x2), Portugal, China, Sweden, Japan,  Austria, Luxembourg, Canada, Germany.
+
+[ICST 2020](https://icst2020.info/track/icst-2020-papers#Call-for-Papers) will be held in Porto, Portugal. I could not find any information on their website regarding visa-related issues. I have inquired about their policy via the contact form on October 27, and am still awaiting a response as of November 6.
+
+However, ICST appears to be located at a very diverse set of locations over the past ten years.
+
 ## CSCW
 
 The [CSCW 2019](https://cscw.acm.org/2019/submit-papers.html) statement is one of the most inclusive ones that I have seen. It explicitly addresses (a) paper publication in the proceedings, (b) remote presentation, and (c) presentation at alternate locations.
@@ -126,20 +141,14 @@ The [CSCW 2019](https://cscw.acm.org/2019/submit-papers.html) statement is one o
 It is worth noting that the first paragraph also appeared in the CFP of [CSCW 2018](https://cscw.acm.org/2018/submit/papers.html).
 
 
-## CHI
+## (SIG)CHI
+
+SIGCHI has an explicit [Statement on Inclusiveness](https://sigchi.org/conferences/organizer-resources/organising-a-sigchi-sponsored-or-co-sponsored-conference/) for conference organizers: 
+
+> “SIGCHI strives to be inclusive for all its members and potential members. **Conference committees should consider conditions that might prohibit or exclude members of our community participating when making site selections**.” [agreed by SIGCHI EC (Nov 17, 2015) and SIGCHI Conference Management Committee (Dec 10, 2015)]. Site Accessibility, accessibility accommodations, **visa/travel concerns**, venue size etc. are the first and key steps to being inclusive.
+
+CHI has also [experimented with telepresence robots](https://chi2019.acm.org/2019/02/15/explorations-of-remote-attendance-at-chi/) for remote attendance.
 
 ## SOSP
 
-## Overarching statements (ACM and IEEE)
 
-Since many conferences are sponsored by ACM SIGs and IEEE societies, I also wanted to highlight relevant statements from some of these bodies.
-
-[IEEE Computer Society's EDI statement](https://www.computer.org/about/vision): (emphasis mine)
-
-> Equity, Diversity, and Inclusion (EDI) are central to the goals of the IEEE Computer Society and all of its activities. **Equity at its heart is about removing barriers, biases, and obstacles that impede equal access and opportunity to succeed**. Diversity is fundamentally about valuing human differences and recognizing diverse talents. Inclusion is the active engagement of Diversity and Equity.
-> 
-> **A goal of the IEEE Computer Society is to foster an environment in which all individuals are entitled to participate in any IEEE Computer Society activity free of discrimination.** [...]
-
-[ACM SIGCHI](https://sigchi.org/conferences/organizer-resources/organising-a-sigchi-sponsored-or-co-sponsored-conference/): (emphasis mine)
-
-> SIGCHI strives to be inclusive for all its members and potential members. **Conference committees should consider conditions that might prohibit or exclude members of our community participating when making site selections.**
