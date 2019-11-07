@@ -9,7 +9,7 @@ Most recently, I learned that [a third of the participants](https://twitter.com/
 
 Naturally, visa issues disproportionately affect members of developing nations and underrepresented communities. Visa refusals are also more common for first-time foreign travellers, which means that students are likely the most affected group in the population. 
 
-As academics, we cannot make sweeping changes  in international relations and policy. As a starting point, I would like to quote some definitions from the [ICSE 2019 diversity and inclusion plan](https://2019.icse-conferences.org/attending/diversity-and-inclusion):
+As academics, we cannot make sweeping changes  in international relations and policy. But perhaps there are steps that we can take in the way we organize and conduct conferences to mitigate biases against national origin and citizenship. As a starting point, I would like to quote some helpful definitions from the [ICSE 2019 diversity and inclusion plan](https://2019.icse-conferences.org/attending/diversity-and-inclusion):
 > **Equity** at its heart is about removing barriers, biases, and obstacles that impede equal access and opportunity to succeed.
 > [...]
 > **Inclusion** is about creating a conference program and environment that is free from discrimination and where every participant feels welcome, included, respected, and safe.
@@ -23,15 +23,15 @@ To get a better idea, I embarked on an informal study. I scanned the websites of
 
 There are several different inclusive strategies that conference organizers can consider (with overlaps between them):
 
-* **Rotating conference venues around the world**. [ICSE](http://www.icse-conferences.org) is a great example: the conference location continuously rotates between Europe, North America, and other continents. I was surprised to find that [only two conferences between ICSE 2014 and ICSE 2023](http://www.icse-conferences.org/history.html) were assigned a location in the USA, which is the most common host country for many conferences in this field.
+* **Rotating conference venues around the world**. [ICSE](http://www.icse-conferences.org) is a great example: each year, the conference location rotates between Europe, North America, and either one of the other continents. I was surprised to find that [only two conferences between ICSE 2014 and ICSE 2023](http://www.icse-conferences.org/history.html) were assigned a location in the USA, which is the most common host country for many conferences in this field.
 * **Locating the conference in [a country that is welcoming to visitors](https://www.passportindex.org/byWelcomingRank.php)**. For example, [ICLR 2020](https://iclr.cc/) will be held in Ethiopia ([a rank #1 location](https://www.passportindex.org/comparebyDestination.php?p1=et&fl=&s=yes)). 
 * **Addressing the visa issue explicitly in the *Call for Papers* (CFP)**, and providing means of alternate presentation for affected authors of accepted papers. Such statements can help potential authors resolve worries about the risk of losing out on publication, should their travel be restricted after paper acceptance. 
 	* **Remote presentation**: [OOPSLA](https://www.sigplan.org/Conferences/OOPSLA/) and [POPL](https://www.sigplan.org/Conferences/POPL/) have indicated support for *authors of all nationalities* in their CFPs since 2017 and 2018 respectively. They have recently been joined by another SIGPLAN conference: [PLDI 2020](https://pldi20.sigplan.org/track/pldi-2020-papers#accepted-papers). 
 	* **Deferred presentation**: Another strategy is to allow authors to present their work in person at a sister conference, usually held in a different country. [CSCW and ECSCW](https://cscw.acm.org/2019/submit-papers.html) are some of the leaders in this space.
-* Support affected authors with alternate means of presentation (e.g. remote video or allowing someone else at the conference to present), without explicitly mentioning this on the website. For example, I have been able to get official policies out-of-band from [ICSE 2020](https://conf.researchr.org/home/icse-2020) and [ASE 2019](https://2019.ase-conferences.org/) upon request (see below).
+* Support affected authors with alternate means of presentation (e.g. remote video or allowing someone else at the conference to present), without explicitly mentioning this on the website. For example, I have been able to acquire policies out-of-band from [ICSE 2020](https://conf.researchr.org/home/icse-2020) and [ASE 2019](https://2019.ase-conferences.org/) (see below).
 
 
-The rest of this post outlines the results of my survey of individual conferences. For each conference, I've tried to gather two types of data: (1) conference locations for the last 10 years, (2) what can authors of accepted papers do if they cannot present in person due to visa issues.
+The rest of this post outlines the results of my survey of individual conferences. For each conference, I've tried to gather two types of data: (1) conference locations for the last 10 years, (2) policy for accepted papers do if their authors cannot present in person due to visa issues.
 
 If you would like to add to this list, please [send me an email](http://rohan.padhye.org).
 
@@ -126,7 +126,7 @@ The [full response, to four specific questions that I had asked, can be found he
 
 [ICST 2020](https://icst2020.info/track/icst-2020-papers#Call-for-Papers) will be held in Porto, Portugal. I could not find any information on their website regarding visa-related issues. I have inquired about their policy via the contact form on October 27, and am still awaiting a response as of November 6.
 
-However, ICST appears to be located at a very diverse set of locations over the past ten years.
+However, ICST appears to be located at a  diverse set of locations over the past ten years.
 
 ## CSCW
 
@@ -151,4 +151,9 @@ CHI has also [experimented with telepresence robots](https://chi2019.acm.org/201
 
 ## SOSP
 
+
+## ISSTA
+
+
+## On Data Collection
 
