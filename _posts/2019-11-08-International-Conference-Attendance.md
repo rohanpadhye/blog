@@ -33,7 +33,7 @@ There are several different inclusive strategies that conference organizers can 
 
 The rest of this post presents results of what I gathered from the website of each conference that I surveyed or via contacting the corresponding chairs. I've tried to gather two types of data: (1) conference locations for the last 10 years, (2) policy for accepted papers do if their authors cannot present in person due to visa issues.
 
-![Summary of Locations and Policies for ACM SIGPLAN and SIGSOFT conferences](https://blog.padhye.org/images/ConfLocationsPolicies.png)
+[![Summary of Locations and Policies for ACM SIGPLAN and SIGSOFT conferences](https://blog.padhye.org/images/ConfLocationsPolicies.png)](https://blog.padhye.org/images/ConfLocationsPolicies.png)
 
 If you would like to add to this list, please [send me an email](http://rohan.padhye.org). Detailed results follow.
 
@@ -188,6 +188,3 @@ A break-down of this data by country of origin would also be insightful (as long
 I suspect that ACM already has some data in the form of how many visa support letters were issued and whether any of the recepients subsequently cancelled registration; however, I am not sure how to get hold of this data. 
 
 My hope is that by publicly reporting these statistics in every conference, the community will be better informed to make decisions when choosing a location for a conference, or when deciding on inclusive policies for travel-restricted authors of accepted papers.
-
-
-
