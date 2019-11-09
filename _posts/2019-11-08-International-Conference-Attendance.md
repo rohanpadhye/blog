@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Equity and Inclusion in International Conference Attendance -- What Can Organizers Do?"
+title: "Equity and Inclusion in International Conference Attendance—What Can Organizers Do?"
 excerpt_separator: <!--more-->
 draft: true
 ---
 
 
-If you are a researcher from most parts of the world, then you probably need a visa to attend most international research conferences -- that's just how the system is currently setup. If you've never had to worry about visa issues, you're likely a citizen of an elite clique of developed nations that currently controls access to top international conferences (and this post is for you!).
+If you are a researcher from most parts of the world, then you probably need a visa to attend most international research conferences—that's just how the system is currently setup. If you've never had to worry about visa issues, you're likely a citizen of an elite clique of developed nations that currently controls access to top international conferences (and this post is for you!).
 
 It has often been pointed out that the process of applying for a visa to attend conferences can be [disconcerting](https://twitter.com/vj_chidambaram/status/1165418986445688832), [logistically challenging](https://twitter.com/saniyusuf/status/1178721337688412160), and [dehumanizing](https://twitter.com/timnitGebru/status/1192875890968944640). Further, there is no shortage of anecdotes on conference registrants, presenters, volunteers, and organizers being simply barred from attending due to visa issues [[1](https://www.wired.com/story/african-ai-experts-get-excluded-from-a-conference-again/)][[2](https://twitter.com/timnitGebru/status/1191970600941707265)][[3](https://twitter.com/cestlemieux/status/118846438766272512)][[4](https://www.the-scientist.com/news-opinion/as-visa-difficulties-persist--scientists-push-for-change-66114)][[5](https://www.insidehighered.com/news/2019/03/28/scholars-complain-visa-problems-ahead-international-conference-canada)] (I wish I had more comprehensive statistics, but more on that later.).
 
