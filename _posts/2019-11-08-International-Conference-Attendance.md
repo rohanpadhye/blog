@@ -79,7 +79,7 @@ The CFP for [ICFP 2020](https://icfp20.sigplan.org/track/icfp-2020-papers) (to b
 
 > At least one author of each accepted submissions will be expected to attend and present that paper at the conference. 
 
-I could not find any information on their website about visa-related issues. I have inquired about their policy via email on November 3, and am still awaiting a response as of November 8.
+Since the text says "*expected*" instead of "*required*", I inquired about their policy in case of visa issues preventing authors from meeting this expectation. I sent the General and PC chairs an email on November 3, and am still awaiting a response as of November 10.
 
 Interestingly, this makes ICFP the only one of the four flagship ACM SIGPLAN conferences that I surveyed to not address the visa issue in their CFP this year. 
 
@@ -127,7 +127,9 @@ The [ISSTA 2020 CFP](https://conf.researchr.org/track/issta-2020/issta-2020-pape
 
 > At least one author of each accepted paper must register and present the paper at ISSTA 2020 in order for the paper to be published in the proceedings. 
 
-On a personal note, I know of at least one student who indicated that **she would likely not submit to ISSTA 2020** (to be held in Los Angeles, USA), primarily due to the anticipated hassle of visa issues.
+It looks like if none of the co-authors can get a visa to attend the conference, then the paper would be excluded from the proceedings.
+
+I know of at least one student who indicated that **she would likely not submit to ISSTA 2020** (to be held in Los Angeles, USA), primarily due to the anticipated hassle of visa issues.
 
 
 ## ICST
@@ -138,7 +140,7 @@ Similar to ISSTA, the [ICST 2020 CFP](https://icst2020.info/track/icst-2020-pape
 
 > If a submission is accepted, at least one author of the paper is required to attend the conference and present the paper in person for the paper to be published in the ICST 2020 conference proceedings.
 
-However, ICST appears to be located at a relatively more diverse set of locations over the past ten years as compared to ISSTA.
+Again, it looks like if none of the co-authors can get a visa to attend the conference, then the paper would be excluded from the proceedings. However, ICST appears to be located at a relatively more diverse set of locations than the other top software testing conference (ISSTA).
 
 ## CSCW
 
