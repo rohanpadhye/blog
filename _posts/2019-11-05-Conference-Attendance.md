@@ -5,18 +5,21 @@ excerpt_separator: <!--more-->
 draft: true
 ---
 
-Most recently, I learned that [a third of the participants](https://twitter.com/timnitGebru/status/1191970600941707265) at the [*Black in AI* workshop at NeurIPS'19](https://blackinai.github.io/workshop/2019/cfp/) and [roughly the same fraction](https://twitter.com/cestlemieux/status/1188464387662725121) of poster presenters at [the AI Systems workshop at SOSP'19](http://learningsys.org/sosp19) could not attend due to visa issues. These are of course a very small sample of many many such cases that occur every year. 
+
+If you are a researcher from most parts of the world, then you probably need a visa to attend most international research conferences -- that's just how the system is currently setup. If you've never had to worry about visa issues, you're likely a citizen of an elite clique of developed nations that currently controls access to top international conferences (and this post is for you!).
+
+Academics have long pointed out that the process of applying for a visa to attend conferences can be [disconcerting](https://twitter.com/vj_chidambaram/status/1165418986445688832), [logistically challenging](https://twitter.com/saniyusuf/status/1178721337688412160), and [dehumanizing](https://twitter.com/timnitGebru/status/1192875890968944640). Further, there is no shortage of anecdotes on conference registrants, presenters, volunteers, and organizers being simply barred from attending due to visa issues [[1](https://www.wired.com/story/african-ai-experts-get-excluded-from-a-conference-again/)][[2](https://twitter.com/timnitGebru/status/1191970600941707265)][[3](https://twitter.com/cestlemieux/status/118846438766272512)][[4](https://www.the-scientist.com/news-opinion/as-visa-difficulties-persist--scientists-push-for-change-66114)][[5](https://www.insidehighered.com/news/2019/03/28/scholars-complain-visa-problems-ahead-international-conference-canada)] (I am not aware of any conferences whose organizers officially collect data about visas, but more on that later.).
 
 Naturally, visa issues disproportionately affect members of developing nations and underrepresented communities. Visa refusals are also more common for first-time foreign travellers, which means that students are likely the most affected group in the population. 
 
-As academics, we cannot make sweeping changes  in international relations and policy. But perhaps there are steps that we can take in the way we organize and conduct conferences to mitigate biases against national origin and citizenship. As a starting point, I would like to quote some helpful definitions from the [ICSE 2019 diversity and inclusion plan](https://2019.icse-conferences.org/attending/diversity-and-inclusion):
+As academics, we cannot easily make sweeping changes in international relations and policy. But perhaps there are steps that we can take in the way we organize and conduct conferences to mitigate biases against national origin and citizenship. The first step is to decide if we care to make a change. [ICSE 2019 diversity and inclusion plan](https://2019.icse-conferences.org/attending/diversity-and-inclusion):
 > **Equity** at its heart is about removing barriers, biases, and obstacles that impede equal access and opportunity to succeed.
 > [...]
 > **Inclusion** is about creating a conference program and environment that is free from discrimination and where every participant feels welcome, included, respected, and safe.
 
-Assuming that we all share these goals, what can we do to increase equity and inclusion for those affected by barriers such as visa requirements, obstacles such as travel restrictions, and to make international participants feel welcome and included?
+Assuming for a moment that we all share these goals, what can we do to increase equity and inclusion for those affected by barriers such as visa requirements, obstacles such as travel restrictions, and to make international participants feel welcome and included?
 
-To get a better idea, I embarked on an informal study. I scanned the websites of some conferences in my field or related areas for their policies regarding author attendance and visa issues. If I couldn't find any information on the website, I contacted the general chairs either via the web-based contact form, if present, or else via email. Here's what I found out.
+To get a better idea, I embarked on an informal study. I scanned the websites of some conferences in my field (*programming languages and software engineering*) or related areas for their policies regarding author attendance and visa issues. If I couldn't find any information on the website, I contacted the general chairs either via the web-based contact form, if present, or else via email. Here's what I found out.
 
 <!--more-->
 
@@ -28,7 +31,6 @@ There are several different inclusive strategies that conference organizers can 
 * **Addressing the visa issue explicitly in the *Call for Papers* (CFP)**, and providing means of alternate presentation for affected authors of accepted papers. Such statements can help potential authors resolve worries about the risk of losing out on publication, should their travel be restricted after paper acceptance. 
 	* **Remote presentation**: [OOPSLA](https://www.sigplan.org/Conferences/OOPSLA/) and [POPL](https://www.sigplan.org/Conferences/POPL/) have indicated support for *authors of all nationalities* in their CFPs since 2017 and 2018 respectively. They have recently been joined by another SIGPLAN conference: [PLDI 2020](https://pldi20.sigplan.org/track/pldi-2020-papers#accepted-papers). 
 	* **Deferred presentation**: Another strategy is to allow authors to present their work in person at a sister conference, usually held in a different country. [CSCW and ECSCW](https://cscw.acm.org/2019/submit-papers.html) are some of the leaders in this space.
-* Support affected authors with alternate means of presentation (e.g. remote video or allowing someone else at the conference to present), without explicitly mentioning this on the website. For example, I have been able to acquire policies out-of-band from [ICSE 2020](https://conf.researchr.org/home/icse-2020) and [ASE 2019](https://2019.ase-conferences.org/) (see below).
 
 
 The rest of this post outlines the results of my survey of individual conferences. For each conference, I've tried to gather two types of data: (1) conference locations for the last 10 years, (2) policy for accepted papers do if their authors cannot present in person due to visa issues.
@@ -79,7 +81,7 @@ The CFP for [ICFP 2020](https://icfp20.sigplan.org/track/icfp-2020-papers) (to b
 
 > At least one author of each accepted submissions will be expected to attend and present that paper at the conference. 
 
-I could not find any information on their website about visa-related issues. I have inquired about their policy via email on November 3, and am still awaiting a response as of November 6.
+I could not find any information on their website about visa-related issues. I have inquired about their policy via email on November 3, and am still awaiting a response as of November 8.
 
 Interestingly, this makes ICFP the only one of the four flagship ACM SIGPLAN conferences that I surveyed to not address the visa issue in their CFP this year. 
 
@@ -91,11 +93,11 @@ However, ICFP's locations have been the most diverse among these SIGPLAN confere
 
 **Locations 2011–2020**: USA (x3), Korea, Canada, Sweden, Argentina, Italy, India, Switzerland.
 
-Initially, I was pleased to find that ICSE 2020 (to be held in Seoul, South Korea) has a dedicated page on [diversity and inclusion](https://conf.researchr.org/attending/icse-2020/Diversity+and+Inclusion+Plan). This page reiterates the IEEE Computer Society's statement on, among other things, *equity*, which is defined as "*removing barriers, biases, and obstacles that impede equal access and opportunity to succeed*". Yet, there was no information on the website relating to barriers and obstacles in the form of visa requirements and denials, respectively. I therefore sent an email requesting an official policy on the possibility of remote presentations for affected authors of accepted papers. I received a detailed response from an [ICSE 2020 General Co-Chair](https://conf.researchr.org/profile/icse-2020/gregrothermel), who is also a member of the ICSE Steering Committee.
+Initially, I was pleased to find that ICSE 2020 (to be held in Seoul, South Korea) has a dedicated page on [diversity and inclusion](https://conf.researchr.org/attending/icse-2020/Diversity+and+Inclusion+Plan). This page reiterates the IEEE Computer Society's statement on, among other things, *equity*, which is defined as "*removing barriers, biases, and obstacles that impede equal access and opportunity to succeed*". Yet, there was no information on the website relating to barriers and obstacles in the form of visa requirements and denials, respectively. I therefore sent an email requesting an official policy on the possibility of remote presentations for affected authors of accepted papers. I received a detailed response from an [ICSE 2020 General Co-Chair](https://conf.researchr.org/profile/icse-2020/gregrothermel), who is also currently a member of the [ICSE Steering Committee](http://www.icse-conferences.org/committee.html).
 
-I learned that the visa issue is something that the ICSE Steering Committee is sensitive to:
+I learned that the visa issue is something that the ICSE Steering Committee is sensitive to and is currently looking into:
 
-> First, the ICSE Steering Committee is going to discuss this issue in it's November [2019] meeting, so there may well be an official over-arching position after that.
+> [The] ICSE Steering Committee is going to discuss this issue in it's November [2019] meeting, so there may well be an official over-arching position after that.
 
 The rest of the response, concerning only the ICSE 2020 edition in particular, follows (emphasis mine):
 
@@ -103,7 +105,7 @@ The rest of the response, concerning only the ICSE 2020 edition in particular, f
 >
 >  This all said, [...], if an author of an accepted paper were to register for ICSE 2020, and **due to visa problems could not attend**, and if they could provide evidence that they had made every effort (including acting in a timely manner) to obtain a visa, **we'd likely try to find a way to accommodate them**.
 
-ICSE's trend of rotating conference venues between continents is worth noting. 
+ICSE's trend of rotating conference venues between continents is worth noting, as it reduces the likelihood of members of a particular region being continuously affected.
 
 ## ASE
 
@@ -124,7 +126,7 @@ The [full response, to four specific questions that I had asked, can be found he
 
 **Locations 2011–2020**: USA (x2), Portugal, China, Sweden, Japan,  Austria, Luxembourg, Canada, Germany.
 
-[ICST 2020](https://icst2020.info/track/icst-2020-papers#Call-for-Papers) will be held in Porto, Portugal. I could not find any information on their website regarding visa-related issues. I have inquired about their policy via the contact form on October 27, and am still awaiting a response as of November 6.
+[ICST 2020](https://icst2020.info/track/icst-2020-papers#Call-for-Papers) will be held in Porto, Portugal. I could not find any information on their website regarding visa-related issues. I have inquired about their policy via the contact form on October 27, and am still awaiting a response as of November 8.
 
 However, ICST appears to be located at a  diverse set of locations over the past ten years.
 
@@ -155,5 +157,11 @@ CHI has also [experimented with telepresence robots](https://chi2019.acm.org/201
 ## ISSTA
 
 
-## On Data Collection
+## Moar Data
+
+The first step to addressing a problem is admitting that there is one (or refuting its existence with evidence). To that end, I urge conference-organizing bodies, such as ACM, IEEE, and steering committees, to collect and publicly report visa statistics for their attendees. In particular, it would be good to have the following data: (1) how many attendees required a visa to attend the conference (even if they had a valid visa from before), (2) how many attendees had to apply for a visa specifically to travel to the conference, and (3) how many attendees had to cancel attendance due to the inability to acquire a visa. A break-down of this data by country of origin would also be insightful (though there may be some privacy concerns with this). 
+
+I suspect that ACM already has some data in the form of how many visa support letters were issued and whether any of the recepients subsequently cancelled registration; however, I am not aware of how to get hold of this data. My hope is that by publicly reporting these statistics in every conference, the community will be better informed to make decisions when choosing a location for a conference, or when deciding on inclusive policies for travel-restricted authors of accepted papers.
+
+
 
