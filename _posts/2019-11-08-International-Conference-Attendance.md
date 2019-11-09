@@ -20,8 +20,7 @@ If these are goals that we all care about, then what can we do to increase equit
 
 To get a better idea, I embarked on an informal study. I scanned the websites of some CS conferences in my field (*programming languages and software engineering*) or in related areas for their policies regarding author attendance and visa issues. If I couldn't find any information on the website, I contacted the general chairs requesting this information. Here's what I found out.
 
-<!-- more -->
-
+<!--more-->
 
 There are several different inclusive strategies that conference organizers can consider (with overlaps between them):
 
