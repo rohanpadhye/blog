@@ -5,15 +5,10 @@ excerpt_separator: <!--more-->
 draft: true
 ---
 
-
-If you are a researcher from most parts of the world, then you probably need a visa to attend most international research conferences—that's just how the system is currently setup. If you've never had to worry about visa issues, you're likely a citizen of an elite clique of developed nations that currently controls access to top international conferences (and this post is for you!).
-
-<!--more-->
+There is no shortage of anecdotes on conference registrants, presenters, volunteers, and organizers being simply barred from attending due to visa issues [[1](https://www.wired.com/story/african-ai-experts-get-excluded-from-a-conference-again/)][[2](https://twitter.com/timnitGebru/status/1191970600941707265)][[3](https://twitter.com/cestlemieux/status/1188464387662725121)][[4](https://www.the-scientist.com/news-opinion/as-visa-difficulties-persist--scientists-push-for-change-66114)][[5](https://www.insidehighered.com/news/2019/03/28/scholars-complain-visa-problems-ahead-international-conference-canada)]. Further, it has often been pointed out that simply the process of applying for a visa to attend conferences can be [disconcerting](https://twitter.com/vj_chidambaram/status/1165418986445688832), [logistically challenging](https://twitter.com/saniyusuf/status/1178721337688412160), and [dehumanizing](https://twitter.com/timnitGebru/status/1192875890968944640). 
 
 
-It has often been pointed out that the process of applying for a visa to attend conferences can be [disconcerting](https://twitter.com/vj_chidambaram/status/1165418986445688832), [logistically challenging](https://twitter.com/saniyusuf/status/1178721337688412160), and [dehumanizing](https://twitter.com/timnitGebru/status/1192875890968944640). Further, there is no shortage of anecdotes on conference registrants, presenters, volunteers, and organizers being simply barred from attending due to visa issues [[1](https://www.wired.com/story/african-ai-experts-get-excluded-from-a-conference-again/)][[2](https://twitter.com/timnitGebru/status/1191970600941707265)][[3](https://twitter.com/cestlemieux/status/1188464387662725121)][[4](https://www.the-scientist.com/news-opinion/as-visa-difficulties-persist--scientists-push-for-change-66114)][[5](https://www.insidehighered.com/news/2019/03/28/scholars-complain-visa-problems-ahead-international-conference-canada)] (I wish I had more comprehensive statistics, but more on that later.).
-
-Naturally, visa issues disproportionately affect members of developing nations and underrepresented communities. Visa refusals are also more common for first-time foreign travellers, which means that junior students are likely the most affected group in the population. 
+Naturally, visa issues disproportionately affect members of developing nations and underrepresented communities. Visa refusals are also more common for first-time foreign travellers, which means that junior students are likely the most affected group in the population. (I wish I had more comprehensive statistics, but more on that later.)
 
 
 As academics, we cannot easily make sweeping changes in international relations and policy. But perhaps there are steps that we can take in the way we organize and conduct conferences to mitigate biases against national origin and citizenship. I'd like to start by quoting some definitions from the [ICSE 2019 diversity and inclusion plan](https://2019.icse-conferences.org/attending/diversity-and-inclusion):
@@ -21,7 +16,7 @@ As academics, we cannot easily make sweeping changes in international relations 
 > [...]
 > **Inclusion** is about creating a conference program and environment that is free from discrimination and where every participant feels welcome, included, respected, and safe.
 
-Assuming for a moment that we all share these goals, what can we do to increase equity and inclusion for those affected by barriers such as visa requirements, obstacles such as travel restrictions, and to make international participants feel welcome and included?
+If these are goals that we all care about, then what can we do to increase equity and inclusion for those affected by barriers such as visa requirements, obstacles such as travel restrictions, and to make international participants feel welcome and included?
 
 To get a better idea, I embarked on an informal study. I scanned the websites of some conferences in my field (*programming languages and software engineering*) or related areas for their policies regarding author attendance and visa issues. If I couldn't find any information on the website, I contacted the general chairs either via the web-based contact form, if present, or else via email. Here's what I found out.
 
@@ -29,8 +24,8 @@ To get a better idea, I embarked on an informal study. I scanned the websites of
 
 There are several different inclusive strategies that conference organizers can consider (with overlaps between them):
 
-* **Rotating conference venues around the world**. [ICSE](http://www.icse-conferences.org) is a great example: each year, the conference location rotates between Europe, North America, and either one of the other continents. I was surprised to find that [only two conferences between ICSE 2014 and ICSE 2023](http://www.icse-conferences.org/history.html) were assigned a location in the USA, which is the most common host country for many conferences in this field. Caveat: this policy may have important implications for the [carbon cost of conference travel](https://blog.sigplan.org/2019/07/17/acm-conferences-and-the-cost-of-carbon/).
-* **Locating the conference in [a country that is welcoming to visitors](https://www.passportindex.org/byWelcomingRank.php)**. For example, [ICLR 2020](https://iclr.cc/) will be held in Ethiopia ([a rank #1 location](https://www.passportindex.org/comparebyDestination.php?p1=et&fl=&s=yes)). 
+* **Rotating conference venues around the world**. [ICSE](http://www.icse-conferences.org) is a great example: each year, the conference location rotates between Europe, North America, and either one of the other continents. I was surprised to find that [only two conferences between ICSE 2014 and ICSE 2023](http://www.icse-conferences.org/history.html) were assigned a location in the USA, which is the most common host country for many conferences in this field. 
+* **Locating the conference in [a country that is welcoming to visitors](https://www.passportindex.org/byWelcomingRank.php)**. For example, [ICLR 2020](https://iclr.cc/) will be held in Ethiopia ([a rank #1 location](https://www.passportindex.org/comparebyDestination.php?p1=et&fl=&s=yes)). *Caveat*: this policy may have important implications for the [carbon cost of conference travel](https://blog.sigplan.org/2019/07/17/acm-conferences-and-the-cost-of-carbon/).
 * **Addressing the visa issue explicitly in the *Call for Papers* (CFP)**, and providing means of alternate presentation for affected authors of accepted papers. Such statements can help potential authors resolve worries about the risk of losing out on publication, should their travel be restricted after paper acceptance. 
 	* **Remote presentation**: [OOPSLA](https://www.sigplan.org/Conferences/OOPSLA/) and [POPL](https://www.sigplan.org/Conferences/POPL/) have indicated support for *authors of all nationalities* in their CFPs since 2017 and 2018 respectively. They have recently been joined by another SIGPLAN conference: [PLDI 2020](https://pldi20.sigplan.org/track/pldi-2020-papers#accepted-papers). 
 	* **Deferred presentation**: Another strategy is to allow authors to present their work in person at a sister conference, usually held in a different country. [CSCW and ECSCW](https://cscw.acm.org/2019/submit-papers.html) are some of the leaders in this space.
@@ -123,6 +118,10 @@ Similar to ICSE, I found a page on the ASE 2019 website on [Diversity and Inclus
 > b. **Presentation by a colleague** can present (who has to be registered; registrations by the non-attending author can be transferred to the presenting colleague). **The colleague does not have to be a co-author**. The colleague can collect questions at the end of the talk and send to the authors for follow up.
 
 The [full response, to four specific questions that I had asked, can be found here](https://blog.padhye.org/ase-2019-response-on-visa-issues).
+
+## ISSTA
+
+> At least one author of each accepted paper must register and present the paper at ISSTA 2020 in order for the paper to be published in the proceedings. 
 
 
 ## ICST
