@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Equity and Inclusion in International Conference Attendance—What Can Organizers Do?"
+title: "Equity and Inclusion in International Conference Attendance—What can organizers do?"
 excerpt_separator: <!--more-->
 draft: true
 ---
