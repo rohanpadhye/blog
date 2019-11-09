@@ -8,7 +8,10 @@ draft: true
 
 If you are a researcher from most parts of the world, then you probably need a visa to attend most international research conferences—that's just how the system is currently setup. If you've never had to worry about visa issues, you're likely a citizen of an elite clique of developed nations that currently controls access to top international conferences (and this post is for you!).
 
-It has often been pointed out that the process of applying for a visa to attend conferences can be [disconcerting](https://twitter.com/vj_chidambaram/status/1165418986445688832), [logistically challenging](https://twitter.com/saniyusuf/status/1178721337688412160), and [dehumanizing](https://twitter.com/timnitGebru/status/1192875890968944640). Further, there is no shortage of anecdotes on conference registrants, presenters, volunteers, and organizers being simply barred from attending due to visa issues [[1](https://www.wired.com/story/african-ai-experts-get-excluded-from-a-conference-again/)][[2](https://twitter.com/timnitGebru/status/1191970600941707265)][[3](https://twitter.com/cestlemieux/status/118846438766272512)][[4](https://www.the-scientist.com/news-opinion/as-visa-difficulties-persist--scientists-push-for-change-66114)][[5](https://www.insidehighered.com/news/2019/03/28/scholars-complain-visa-problems-ahead-international-conference-canada)] (I wish I had more comprehensive statistics, but more on that later.).
+<!--more-->
+
+
+It has often been pointed out that the process of applying for a visa to attend conferences can be [disconcerting](https://twitter.com/vj_chidambaram/status/1165418986445688832), [logistically challenging](https://twitter.com/saniyusuf/status/1178721337688412160), and [dehumanizing](https://twitter.com/timnitGebru/status/1192875890968944640). Further, there is no shortage of anecdotes on conference registrants, presenters, volunteers, and organizers being simply barred from attending due to visa issues [[1](https://www.wired.com/story/african-ai-experts-get-excluded-from-a-conference-again/)][[2](https://twitter.com/timnitGebru/status/1191970600941707265)][[3](https://twitter.com/cestlemieux/status/1188464387662725121)][[4](https://www.the-scientist.com/news-opinion/as-visa-difficulties-persist--scientists-push-for-change-66114)][[5](https://www.insidehighered.com/news/2019/03/28/scholars-complain-visa-problems-ahead-international-conference-canada)] (I wish I had more comprehensive statistics, but more on that later.).
 
 Naturally, visa issues disproportionately affect members of developing nations and underrepresented communities. Visa refusals are also more common for first-time foreign travellers, which means that junior students are likely the most affected group in the population. 
 
@@ -21,7 +24,6 @@ Assuming for a moment that we all share these goals, what can we do to increase 
 
 To get a better idea, I embarked on an informal study. I scanned the websites of some conferences in my field (*programming languages and software engineering*) or related areas for their policies regarding author attendance and visa issues. If I couldn't find any information on the website, I contacted the general chairs either via the web-based contact form, if present, or else via email. Here's what I found out.
 
-<!--more-->
 
 
 There are several different inclusive strategies that conference organizers can consider (with overlaps between them):
