@@ -15,6 +15,7 @@ It has often been pointed out that the process of applying for a visa to attend 
 
 Naturally, visa issues disproportionately affect members of developing nations and underrepresented communities. Visa refusals are also more common for first-time foreign travellers, which means that junior students are likely the most affected group in the population. 
 
+
 As academics, we cannot easily make sweeping changes in international relations and policy. But perhaps there are steps that we can take in the way we organize and conduct conferences to mitigate biases against national origin and citizenship. I'd like to start by quoting some definitions from the [ICSE 2019 diversity and inclusion plan](https://2019.icse-conferences.org/attending/diversity-and-inclusion):
 > **Equity** at its heart is about removing barriers, biases, and obstacles that impede equal access and opportunity to succeed.
 > [...]
