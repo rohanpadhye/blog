@@ -31,9 +31,11 @@ There are several different inclusive strategies that conference organizers can 
 	* **Deferred presentation**: Another strategy is to allow authors to present their work in person at a sister conference, usually held in a different country. [CSCW and ECSCW](https://cscw.acm.org/2019/submit-papers.html) are some of the leaders in this space.
 
 
-The rest of this post outlines the results of my survey of individual conferences. For each conference, I've tried to gather two types of data: (1) conference locations for the last 10 years, (2) policy for accepted papers do if their authors cannot present in person due to visa issues.
+The rest of this post presents results of what I gathered from the website of each conference that I surveyed or via contacting the corresponding chairs. I've tried to gather two types of data: (1) conference locations for the last 10 years, (2) policy for accepted papers do if their authors cannot present in person due to visa issues.
 
-If you would like to add to this list, please [send me an email](http://rohan.padhye.org).
+![Summary of Locations and Policies for ACM SIGPLAN and SIGSOFT conferences](https://blog.padhye.org/images/ConfLocationsPolicies.png)
+
+If you would like to add to this list, please [send me an email](http://rohan.padhye.org). Detailed results follow.
 
 * TOC
 {:toc}
