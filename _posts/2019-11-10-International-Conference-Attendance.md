@@ -32,9 +32,7 @@ There are several different inclusive strategies that conference organizers can 
 	* **Deferred presentation**: Another strategy is to allow authors to present their work in person at a sister conference, usually held in a different country. [CSCW and ECSCW](https://cscw.acm.org/2019/submit-papers.html) are some of the leaders in this space. This allows the authors to physically attend and present their work to the same (or similar) research community.
 
 
-The rest of this post presents results of what I gathered from the website of each conference that I surveyed or via contacting the corresponding chairs. I've tried to gather two types of data: (1) conference locations for the last 10 years, (2) policy for accepted papers do if their authors cannot present in person due to visa issues.
-
-Here's a quick summary (detailed results below):
+The rest of this post outlines, for the conferences that I surveyed, (1) locations for the last 10 years, (2) policy for accepted papers if their authors cannot present in person due to visa issues. Here's a quick summary (detailed results below):
 
 [![Summary of Locations and Policies for ACM SIGPLAN and SIGSOFT conferences](https://blog.padhye.org/images/ConfLocationsPolicies.png)](https://blog.padhye.org/images/ConfLocationsPolicies.png)
 
@@ -80,15 +78,13 @@ I'm glad that my poking around prompted this welcome addition :-).
 **Locations 2011–2020**: USA (x3), Germany, UK, Japan (x2), Canada, Sweden, Denmark.
 
 
-The CFP for [ICFP 2020](https://icfp20.sigplan.org/track/icfp-2020-papers) (to be held in New Jersey, USA) currently states:
+The [CFP for ICFP 2020](https://icfp20.sigplan.org/track/icfp-2020-papers#information-for-authors-of-accepted-papers) (to be held in New Jersey, USA) currently states:
 
 > At least one author of each accepted submissions will be expected to attend and present that paper at the conference. 
 
 Since the text says "*expected*" instead of "*required*", I inquired about their policy in case of visa issues preventing authors from meeting this expectation. I sent the General and PC chairs an email on November 3, and am still awaiting a response as of November 10.
 
-Interestingly, this makes ICFP the only one of the four flagship ACM SIGPLAN conferences that I surveyed to not address the visa issue in their CFP this year. 
-
-However, ICFP's locations have been the most diverse among these SIGPLAN conferences.
+Interestingly, this makes ICFP the only one of the four flagship ACM SIGPLAN conferences that I surveyed to not address the visa issue in their CFP this year. However, ICFP's locations have clearly been the most diverse among these SIGPLAN conferences.
 
 
 
@@ -96,7 +92,7 @@ However, ICFP's locations have been the most diverse among these SIGPLAN confere
 
 **Locations 2011–2020**: USA (x3), Korea, Canada, Sweden, Argentina, Italy, India, Switzerland.
 
-Initially, I was pleased to find that ICSE 2020 (to be held in Seoul, South Korea) has a dedicated page on [diversity and inclusion](https://conf.researchr.org/attending/icse-2020/Diversity+and+Inclusion+Plan). This page reiterates the IEEE Computer Society's statement on, among other things, *equity*, which is defined as "*removing barriers, biases, and obstacles that impede equal access and opportunity to succeed*". Yet, there was no information on the website relating to barriers and obstacles in the form of visa requirements and denials, respectively. I therefore sent an email requesting an official policy on the possibility of remote presentations for affected authors of accepted papers. I received a detailed response from an [ICSE 2020 General Co-Chair](https://conf.researchr.org/profile/icse-2020/gregrothermel), who is also currently a member of the [ICSE Steering Committee](http://www.icse-conferences.org/committee.html).
+Initially, I was pleased to find that ICSE 2020 (to be held in Seoul, South Korea) has a dedicated page on [diversity and inclusion](https://conf.researchr.org/attending/icse-2020/Diversity+and+Inclusion+Plan). However, I was not sure if the stated equity-related goals of "removing barriers, biases, and obstacles that impede equal access and opportunity to succeed" addressed visa issues. I therefore sent an email requesting an official policy on the possibility of remote presentations for affected authors of accepted papers. I received a detailed response from an [ICSE 2020 General Co-Chair](https://conf.researchr.org/profile/icse-2020/gregrothermel), who is also currently a member of the [ICSE Steering Committee](http://www.icse-conferences.org/committee.html).
 
 I learned that the visa issue is something that the ICSE Steering Committee is sensitive to and is currently looking into:
 
@@ -104,11 +100,11 @@ I learned that the visa issue is something that the ICSE Steering Committee is s
 
 The rest of the response, concerning only the ICSE 2020 edition in particular, follows (emphasis mine):
 
-> **For 2020, ICSE in general won't support remote presentations**, because we believe that the most powerful thing a conference offers is community and the ability to interact with others directly and in person. Moreover, the costs of running a conference make it important that people attend, as well.  For this reason, ICSE 2020 also does require (and this has been true of all ICSEs in the past decade) that at least one author of a paper register for and attend the entire conference. [...] **If no author of a given accepted paper registers for the conference, the paper is withdrawn from the proceedings and does not appear in any digital library**.   The same will occur if an author registers, but then, nobody appears in person at the conference to present the paper.
+> **For 2020, ICSE in general won't support remote presentations**, because we believe that the most powerful thing a conference offers is community and the ability to interact with others directly and in person. Moreover, the costs of running a conference make it important that people attend, as well.  For this reason, ICSE 2020 also does require (and this has been true of all ICSEs in the past decade) that at least one author of a paper register for and attend the entire conference. [...] If no author of a given accepted paper registers for the conference, the paper is withdrawn from the proceedings and does not appear in any digital library.   The same will occur if an author registers, but then, nobody appears in person at the conference to present the paper.
 >
 >  This all said, [...], if an author of an accepted paper were to register for ICSE 2020, and **due to visa problems could not attend**, and if they could provide evidence that they had made every effort (including acting in a timely manner) to obtain a visa, **we'd likely try to find a way to accommodate them**.
 
-ICSE's trend of rotating conference venues between continents is worth noting, as it reduces the likelihood of members of a particular region being continuously affected.
+ICSE's trend of rotating conference venues between continents is worth noting, as it reduces the likelihood of members of a particular region being continuously affected. ICSE's locations are probably the most diverse from the conferences surveyed for this post.
 
 ## ASE
 
@@ -132,7 +128,7 @@ The [ISSTA 2020 CFP](https://conf.researchr.org/track/issta-2020/issta-2020-pape
 
 > At least one author of each accepted paper must register and present the paper at ISSTA 2020 in order for the paper to be published in the proceedings. 
 
-It looks like if none of the co-authors can get a visa to attend the conference, then the paper would be excluded from the proceedings.
+It looks like if none of the co-authors are able to attend, then the paper would be excluded from the proceedings.
 
 I know of at least one student who indicated that **she would likely not submit to ISSTA 2020** (to be held in Los Angeles, USA), primarily due to the anticipated hassle of visa issues.
 
@@ -145,7 +141,7 @@ Similar to ISSTA, the [ICST 2020 CFP](https://icst2020.info/track/icst-2020-pape
 
 > If a submission is accepted, at least one author of the paper is required to attend the conference and present the paper in person for the paper to be published in the ICST 2020 conference proceedings.
 
-Again, it looks like if none of the co-authors can get a visa to attend the conference, then the paper would be excluded from the proceedings. However, ICST appears to be located at a relatively more diverse set of locations than the other top software testing conference (ISSTA).
+Again, it looks like if none of the co-authors are able to attend in person, then the paper would be excluded from the proceedings. However, ICST appears to be located at a relatively more diverse set of locations than ISSTA (both are top software testing conferences).
 
 ## CSCW
 
@@ -153,7 +149,7 @@ Again, it looks like if none of the co-authors can get a visa to attend the conf
 
 Even though CSCW is not my research area, I am including the conference in this list because I have been told by multiple sources that it is a leader in directly addressing visa issues (despite or likely *because* of the fact that it is almost always located in North America).
 
-The [CSCW 2019](https://cscw.acm.org/2019/submit-papers.html) CFP contains probably the most inclusive statements that I have seen. It explicitly addresses (a) paper publication in the proceedings, (b) remote presentation, and (c) presentation at alternate locations.
+The [CSCW 2019](https://cscw.acm.org/2019/submit-papers.html) CFP contains probably the most inclusive statements that I have seen. It explicitly addresses (a) paper publication in the proceedings, (b) remote presentation, and (c) presentation at alternate locations. Emphasis mine:
 
 > The conference will find ways to accommodate those who are unable to travel to the United States due to geo-political reasons. **Such papers will be included in the proceedings regardless of the author registration status, and we will seek ways for authors to present their work remotely at the conference**.
 >
@@ -161,21 +157,14 @@ The [CSCW 2019](https://cscw.acm.org/2019/submit-papers.html) CFP contains proba
 >
 > Reciprocally, CSCW 2019 will accommodate presentations of work accepted to ECSCW 2019 in case there are authors prevented from traveling to ECSCW because of legal travel barriers.
 
-[ECSCW](https://ecscw.eusset.eu/) is the European counterpart to CSCW. I think that deferred presentation is quite an innovative solution, and one that ACM SIGSOFT/SIGPLAN conferences ought to consider.
+[ECSCW](https://ecscw.eusset.eu/) is the European counterpart to CSCW. I think that deferred presentation is quite an innovative solution, and one that ACM SIGSOFT/SIGPLAN conferences might want to consider looking into.
 
 
 ## SOSP
 
 **Locations 2011–2020**: USA (x2), Canada, China, Portugal  // SOSP is held every alternate year
 
-I was pleased to see that the SOSP 2019 website had a [Diversity, Equity, and Inclusion Plan](https://sosp19.rcs.uwaterloo.ca/dei.html), adapted from that of ICSE.
-
-I contacted the general chairs asking about the possibility of alternate presentations for affected authors of accepted papers. However, I was not able to get an official policy to include in this post. 
-
-
-## Other Conferences
-
-If you have information about other Computer Science research conferences (especially those sponsored by ACM/IEEE), please let me know and I'd be happy to include their policies in this post.
+I was pleased to see that the SOSP 2019 website had a [Diversity, Equity, and Inclusion Plan](https://sosp19.rcs.uwaterloo.ca/dei.html), adapted from that of ICSE. I contacted the general chairs asking about the possibility of alternate presentations for affected authors of accepted papers. However, I was not able to get an official policy to include in this post. 
 
 
 ## Call For Data!
@@ -191,6 +180,3 @@ A break-down of this data by country of origin would also be insightful (as long
 I suspect that ACM already has some data in the form of how many visa support letters were issued and whether any of the recepients subsequently cancelled registration; however, I am not sure how to get hold of this data. 
 
 My hope is that by publicly reporting these statistics in every conference, the community will be better informed to make decisions when choosing a location for a conference, or when deciding on inclusive policies for travel-restricted authors of accepted papers.
-
-
-
