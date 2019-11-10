@@ -2,7 +2,6 @@
 layout: post
 title: "Equity and Inclusion in International Conference Attendance—What can conference organizers do?"
 excerpt_separator: <!--more-->
-draft: true
 ---
 
 There is no shortage of anecdotes on conference registrants, presenters, volunteers, and organizers being unable to participate due to visa issues [[1](https://www.wired.com/story/african-ai-experts-get-excluded-from-a-conference-again/)][[2](https://twitter.com/timnitGebru/status/1191970600941707265)][[3](https://twitter.com/cestlemieux/status/1188464387662725121)][[4](https://www.the-scientist.com/news-opinion/as-visa-difficulties-persist--scientists-push-for-change-66114)][[5](https://www.insidehighered.com/news/2019/03/28/scholars-complain-visa-problems-ahead-international-conference-canada)]. Further, it has often been pointed out that simply the process of applying for a visa to attend conferences can be [disconcerting](https://twitter.com/vj_chidambaram/status/1165418986445688832), [logistically challenging](https://twitter.com/saniyusuf/status/1178721337688412160), and [dehumanizing](https://twitter.com/timnitGebru/status/1192875890968944640). 
