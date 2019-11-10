@@ -159,11 +159,18 @@ The [CSCW 2019](https://cscw.acm.org/2019/submit-papers.html) CFP contains proba
 [ECSCW](https://ecscw.eusset.eu/) is the European counterpart to CSCW. I think that deferred presentation is quite an innovative solution, and one that ACM SIGSOFT/SIGPLAN conferences might want to consider looking into.
 
 
-## SOSP
+## SOSP / OSDI
 
 **Locations 2011–2020**: USA (x2), Canada, China, Portugal  // SOSP is held every alternate year
+**Locations 2011–2020**: USA (x4), Canada  // OSDI is held every alternate year
 
 I was pleased to see that the SOSP 2019 website had a [Diversity, Equity, and Inclusion Plan](https://sosp19.rcs.uwaterloo.ca/dei.html), adapted from that of ICSE. I contacted the general chairs asking about the possibility of alternate presentations for affected authors of accepted papers. However, I was not able to get an official policy to include in this post. 
+
+The [OSDI 2020 CFP](https://www.usenix.org/conference/osdi20/call-for-papers) addresses author attendance and visa requirements, but not what happens if authors are unable to obtain a visa:
+
+> By submitting a paper, you agree that at least one of the authors will attend the conference to present it. [...]
+>
+> If your paper is accepted and you need an invitation letter to apply for a visa to attend the conference, please contact conference@usenix.org as soon as possible. (Visa applications can take at least 30 working days to process.) Please identify yourself as a presenter and include your mailing address in your email.
 
 
 ## Call For Data!
