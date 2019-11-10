@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 There is no shortage of anecdotes on conference registrants, presenters, volunteers, and organizers being unable to participate due to visa issues [[1](https://www.wired.com/story/african-ai-experts-get-excluded-from-a-conference-again/)][[2](https://twitter.com/timnitGebru/status/1191970600941707265)][[3](https://twitter.com/cestlemieux/status/1188464387662725121)][[4](https://www.the-scientist.com/news-opinion/as-visa-difficulties-persist--scientists-push-for-change-66114)][[5](https://www.insidehighered.com/news/2019/03/28/scholars-complain-visa-problems-ahead-international-conference-canada)]. Further, it has often been pointed out that simply the process of applying for a visa to attend conferences can be [disconcerting](https://twitter.com/vj_chidambaram/status/1165418986445688832), [logistically challenging](https://twitter.com/saniyusuf/status/1178721337688412160), and [dehumanizing](https://twitter.com/timnitGebru/status/1192875890968944640). 
 
 
-Naturally, visa issues disproportionately affect members of developing nations and underrepresented communities. Visa refusals are also more common for first-time foreign travellers, which means that junior students are likely the most affected group in the population. (I wish I had more comprehensive statistics, but [more on that later](#call-for-data).)
+Naturally, visa issues disproportionately affect members of developing nations and underrepresented communities. Visa refusals are also more common for first-time foreign travelers, which means that junior students are likely the most affected group in the population. (I wish I had more comprehensive statistics, but [more on that later](#call-for-data).)
 
 
 As academics, we cannot easily make sweeping changes in international relations and policy. But perhaps there are steps that we can take in the way we organize and conduct conferences to mitigate biases against national origin and citizenship. I'd like to start by quoting some definitions from the [ICSE 2019 diversity and inclusion plan](https://2019.icse-conferences.org/attending/diversity-and-inclusion):
@@ -123,24 +123,24 @@ The [full response, to four specific questions that I had asked, can be found he
 
 **Locations 2011–2020**: USA (x5), China, Netherlands, Germany, Switzerland, Canada
 
-The [ISSTA 2020 CFP](https://conf.researchr.org/track/issta-2020/issta-2020-papers#Call-for-Papers) is pretty clear about their policy:
+The [ISSTA 2020 CFP](https://conf.researchr.org/track/issta-2020/issta-2020-papers#Call-for-Papers) clearly says:
 
 > At least one author of each accepted paper must register and present the paper at ISSTA 2020 in order for the paper to be published in the proceedings. 
 
 It looks like if none of the co-authors are able to attend, then the paper would be excluded from the proceedings.
 
-I know of at least one student who indicated that **she would likely not submit to ISSTA 2020** (to be held in Los Angeles, USA), primarily due to the anticipated hassle of visa issues.
+I know of at least one student who indicated that **she would likely not submit a paper to ISSTA 2020**, primarily due to the anticipated hassle of visa issues.
 
 
 ## ICST
 
 **Locations 2011–2020**: USA (x2), Portugal, China, Sweden, Japan,  Austria, Luxembourg, Canada, Germany.
 
-Similar to ISSTA, the [ICST 2020 CFP](https://icst2020.info/track/icst-2020-papers#Call-for-Papers) is clear about their policy:
+Similar to ISSTA, the [ICST 2020 CFP](https://icst2020.info/track/icst-2020-papers#Call-for-Papers) clearly says:
 
 > If a submission is accepted, at least one author of the paper is required to attend the conference and present the paper in person for the paper to be published in the ICST 2020 conference proceedings.
 
-Again, it looks like if none of the co-authors are able to attend in person, then the paper would be excluded from the proceedings. However, ICST appears to be located at a relatively more diverse set of locations than ISSTA (both are top software testing conferences).
+Again, it looks like if none of the co-authors are able to attend in person, then the paper would likely be excluded from the proceedings. 
 
 ## CSCW
 
