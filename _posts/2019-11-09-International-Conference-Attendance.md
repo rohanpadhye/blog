@@ -21,7 +21,7 @@ To get a better idea, I embarked on an informal study. I scanned the websites of
 
 <!--more-->
 
-There are several different inclusive strategies that conference organizers can consider (with overlaps between them):
+It seems that there are several different inclusive strategies that conference organizers can consider (with overlaps between them):
 
 * **Rotating conference venues around the world**. [ICSE](http://www.icse-conferences.org) is a great example: each year, the conference location rotates between Europe, North America, and either one of the other continents. I was surprised to find that [only two conferences between ICSE 2014 and ICSE 2023](http://www.icse-conferences.org/history.html) were assigned a location in the USA, which is the most common host country for many conferences in this field. 
 * **Locating the conference in [a country that is welcoming to visitors](https://www.passportindex.org/byWelcomingRank.php)**. For example, [ICLR 2020](https://iclr.cc/) will be held in Ethiopia ([a rank #1 location](https://www.passportindex.org/comparebyDestination.php?p1=et&fl=&s=yes)). *Caveat*: this policy may have important implications for the [carbon cost of conference travel](https://blog.sigplan.org/2019/07/17/acm-conferences-and-the-cost-of-carbon/).
@@ -46,7 +46,7 @@ If you would like to add to this list (or if you notice any errors), please [sen
 
 **Locations 2011–2020**: USA (x7), Greece, Canada, Netherlands. 
 
-OOPSLA is particularly bad at diversity in conference locations. It has only been held outside of North America *twice* in its 35+ year history, the first one being in 2016!!
+OOPSLA appears particularly bad at diversity in conference locations. It has only been held outside of North America *twice* in its 35+ year history, the first one being in 2016!!
 
 However, the [OOPSLA 2017](https://2017.splashcon.org/track/splash-2017-OOPSLA#information-for-authors-of-accepted-papers), [OOPSLA 2018](https://conf.researchr.org/track/splash-2018/splash-2018-OOPSLA#Instructions) and [OOPSLA 2019](https://conf.researchr.org/track/splash-2019/splash-2019-oopsla#information-for-authors-of-accepted-papers) Call for Papers have made strong statements of support for international attendees. I quote the one from 2019 below (emphasis mine):
 
@@ -95,7 +95,7 @@ Initially, I was pleased to find that ICSE 2020 (to be held in Seoul, South Kore
 
 I learned that the visa issue is something that the ICSE Steering Committee is sensitive to and is currently looking into:
 
-> [The] ICSE Steering Committee is going to discuss this issue in it's November [2019] meeting, so there may well be an official over-arching position after that.
+> [The] ICSE Steering Committee is going to discuss this issue in it's November meeting, so there may well be an official over-arching position after that.
 
 The rest of the response, concerning only the ICSE 2020 edition in particular, follows (emphasis mine):
 
