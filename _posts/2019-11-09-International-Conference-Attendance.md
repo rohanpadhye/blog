@@ -81,7 +81,7 @@ The [CFP for ICFP 2020](https://icfp20.sigplan.org/track/icfp-2020-papers#inform
 
 > At least one author of each accepted submissions will be expected to attend and present that paper at the conference. 
 
-Since the text says "*expected*" instead of "*required*", I inquired about their policy in case of visa issues preventing authors from meeting this expectation. I sent the General and PC chairs an email on November 3, and am still awaiting a response as of November 10.
+Since the text says "*expected*" instead of "*required*", I inquired about their policy in case of visa issues preventing authors from meeting this expectation. I sent the General and PC chairs an email on November 3, and am still awaiting a response as of November 9.
 
 Interestingly, this makes ICFP the only one of the four flagship ACM SIGPLAN conferences that I surveyed to not address the visa issue in their CFP this year. However, ICFP's locations have clearly been the most diverse among these SIGPLAN conferences.
 
