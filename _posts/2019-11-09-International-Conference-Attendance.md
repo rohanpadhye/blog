@@ -170,9 +170,9 @@ I was pleased to see that the SOSP 2019 website had a [Diversity, Equity, and In
 
 For us to be able to better study the impact of visa issues on the academic community, I urge conference-organizing bodies to collect and publicly report visa statistics for their attendees. In particular, it would be good to have the following data from each conference: 
 
-1. How many attendees required a visa to attend the conference (even if they had a valid visa from before)?
-2. How many attendees had to apply for a visa specifically to travel to the conference?
-3. How many attendees had to cancel attendance due to the inability to acquire a visa?
+1. How many registrants required a visa to attend the conference (even if they had a valid visa from before)?
+2. How many registrants had to apply for a visa specifically to travel to the conference?
+3. How many registrants had to cancel attendance due to the inability to acquire a visa?
 
 A break-down of this data by country of origin would also be insightful (as long as it does not violate any privacy issues). 
 
