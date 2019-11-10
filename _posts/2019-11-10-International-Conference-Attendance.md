@@ -38,7 +38,7 @@ Here's a quick summary (detailed results below):
 
 [![Summary of Locations and Policies for ACM SIGPLAN and SIGSOFT conferences](https://blog.padhye.org/images/ConfLocationsPolicies.png)](https://blog.padhye.org/images/ConfLocationsPolicies.png)
 
-If you would like to add to this list, please [send me an email](http://rohan.padhye.org). 
+If you would like to add to this list (or if you notice any errors), please [send me an email](http://rohan.padhye.org). 
 
 * TOC
 {:toc}
@@ -191,4 +191,6 @@ A break-down of this data by country of origin would also be insightful (as long
 I suspect that ACM already has some data in the form of how many visa support letters were issued and whether any of the recepients subsequently cancelled registration; however, I am not sure how to get hold of this data. 
 
 My hope is that by publicly reporting these statistics in every conference, the community will be better informed to make decisions when choosing a location for a conference, or when deciding on inclusive policies for travel-restricted authors of accepted papers.
+
+
 
