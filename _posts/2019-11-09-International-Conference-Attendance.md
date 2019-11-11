@@ -192,5 +192,7 @@ My hope is that by publicly reporting these statistics in every conference, the 
 
 ----
 
-Edit 1 (November 10, 2019): Updated to include OSDI along with SOSP.
-Edit 2 (November 10, 2019): Updated to include additional information provided by ICFP chairs.
+Changelog:
+
+1. (November 10, 2019): Updated to include OSDI along with SOSP.
+2. (November 10, 2019): Updated to include additional information provided by ICFP chairs.
