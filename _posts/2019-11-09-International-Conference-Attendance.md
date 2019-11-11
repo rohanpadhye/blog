@@ -33,7 +33,7 @@ It seems that there are several different inclusive strategies that conference o
 
 The rest of this post outlines, for the conferences that I surveyed, (1) locations for the last 10 years, (2) policy for accepted papers if their authors cannot present in person due to visa issues. Here's a quick summary (detailed results below):
 
-[![Summary of Locations and Policies for ACM SIGPLAN and SIGSOFT conferences](https://blog.padhye.org/images/ConfLocationsPolicies.png?v3)](https://blog.padhye.org/images/ConfLocationsPolicies.png?v3)
+[![Summary of Locations and Policies for ACM SIGPLAN and SIGSOFT conferences](https://blog.padhye.org/images/ConfLocationsPolicies.png?v4)](https://blog.padhye.org/images/ConfLocationsPolicies.png?v4)
 
 If you would like to add to this list (or if you notice any errors), please [send me an email](http://rohan.padhye.org). 
 
