@@ -33,7 +33,7 @@ It seems that there are several different inclusive strategies that conference o
 
 The rest of this post outlines, for the conferences that I surveyed, (1) locations for the last 10 years, (2) policy for accepted papers if their authors cannot present in person due to visa issues. Here's a quick summary (detailed results below):
 
-[![Summary of Locations and Policies for ACM SIGPLAN and SIGSOFT conferences](https://blog.padhye.org/images/ConfLocationsPolicies.png?v2)](https://blog.padhye.org/images/ConfLocationsPolicies.png?v2)
+[![Summary of Locations and Policies for ACM SIGPLAN and SIGSOFT conferences](https://blog.padhye.org/images/ConfLocationsPolicies.png?v3)](https://blog.padhye.org/images/ConfLocationsPolicies.png?v3)
 
 If you would like to add to this list (or if you notice any errors), please [send me an email](http://rohan.padhye.org). 
 
@@ -77,13 +77,15 @@ I'm glad that my poking around prompted this welcome addition :-).
 **Locations 2011–2020**: USA (x3), Germany, UK, Japan (x2), Canada, Sweden, Denmark.
 
 
-The [CFP for ICFP 2020](https://icfp20.sigplan.org/track/icfp-2020-papers#information-for-authors-of-accepted-papers) (to be held in New Jersey, USA) currently states:
+The [CFP for ICFP 2020](https://icfp20.sigplan.org/track/icfp-2020-papers#information-for-authors-of-accepted-papers) (to be held in New Jersey, USA) initially only stated:
 
 > At least one author of each accepted submissions will be expected to attend and present that paper at the conference. 
 
-Since the text says "*expected*" instead of "*required*", I inquired about their policy in case of visa issues preventing authors from meeting this expectation. I sent the General and PC chairs an email on November 3, and am still awaiting a response as of November 9.
+Since the text said "*expected*" instead of "*required*", I inquired about their policy in case of visa issues preventing authors from meeting this expectation. I sent the General and PC chairs an email on November 3, and I received a response on November 10, exactly one day after this post was published. The CFP was updated to include the following additional text (emphasis in original):
 
-Interestingly, this makes ICFP the only one of the four flagship ACM SIGPLAN conferences that I surveyed to not address the visa issue in their CFP this year. However, ICFP's locations have clearly been the most diverse among these SIGPLAN conferences.
+> In extraordinary circumstances, at the *discretion of the principal editor*, alternative presentation methods may be approved for specific papers. The canonical example is where all authors are denied visas to the ICFP host country, in which case a nonauthor may be deputized to present, or various electronic substitutes may be considered. We list these options in the interest of transparency, but please keep in mind that, most years, *no exceptions are granted*. This option is not meant, e.g., to excuse cases where authors find themselves double-booked with other meetings (so, at the time of submitting a paper, please do keep the days of the conference reserved on at least one author’s calendar).
+
+ICFP's locations have clearly been the most diverse among the SIGPLAN conferences that I surveyed.
 
 
 
@@ -191,3 +193,4 @@ My hope is that by publicly reporting these statistics in every conference, the 
 ----
 
 Edit 1 (November 10, 2019): Updated to include OSDI along with SOSP.
+Edit 2 (November 10, 2019): Updated to include additional information provided by ICFP chairs.
