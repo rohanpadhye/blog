@@ -131,7 +131,7 @@ The [ISSTA 2020 CFP](https://conf.researchr.org/track/issta-2020/issta-2020-pape
 
 It looks like if none of the co-authors are able to attend, then the paper would be excluded from the proceedings.
 
-I know of at least one student who indicated that **she would likely not submit a paper to ISSTA 2020**, primarily due to the anticipated hassle of visa issues.
+I know of at least one student who indicated that she would likely not submit a paper to ISSTA 2020, primarily due to the anticipated hassle of visa issues :-(
 
 
 ## ICST
