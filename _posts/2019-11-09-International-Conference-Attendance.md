@@ -93,7 +93,7 @@ ICFP's locations have clearly been the most diverse among the SIGPLAN conference
 
 **Locations 2011–2020**: USA (x3), Korea, Canada, Sweden, Argentina, Italy, India, Switzerland.
 
-Initially, I was pleased to find that ICSE 2020 (to be held in Seoul, South Korea) has a dedicated page on [diversity and inclusion](https://conf.researchr.org/attending/icse-2020/Diversity+and+Inclusion+Plan). However, I was not sure if the stated equity-related goals of "removing barriers, biases, and obstacles that impede equal access and opportunity to succeed" addressed visa issues. I therefore sent an email requesting an official policy on the possibility of remote presentations for affected authors of accepted papers. I received a detailed response from an [ICSE 2020 General Co-Chair](https://conf.researchr.org/profile/icse-2020/gregrothermel), who is also currently a member of the [ICSE Steering Committee](http://www.icse-conferences.org/committee.html).
+Initially, I was pleased to find that ICSE 2020 (to be held in Seoul, South Korea) has a dedicated page on [diversity and inclusion](https://conf.researchr.org/attending/icse-2020/Diversity+and+Inclusion+Plan). However, I was not sure if the stated equity-related goals of "removing barriers, biases, and obstacles that impede equal access and opportunity to succeed" addressed visa issues (*edit: this page has been updated since this post was published*). I therefore sent an email requesting an official policy on the possibility of remote presentations for affected authors of accepted papers. I received a detailed response from an [ICSE 2020 General Co-Chair](https://conf.researchr.org/profile/icse-2020/gregrothermel), who is also currently a member of the [ICSE Steering Committee](http://www.icse-conferences.org/committee.html).
 
 I learned that the visa issue is something that the ICSE Steering Committee is sensitive to and is currently looking into:
 
@@ -195,4 +195,5 @@ My hope is that by publicly reporting these statistics in every conference, the 
 Changelog:
 
 1. (November 10, 2019): Updated to include OSDI along with SOSP.
-2. (November 10, 2019): Updated to include additional information provided by ICFP chairs.
+2. (November 10, 2019): Updated to include [additional information](https://icfp20.sigplan.org/track/icfp-2020-papers#information-for-authors-of-accepted-papers) provided by ICFP chairs.
+3. (November 14, 2019): Updated to indicate that the [ICSE 2020 Diversity and Inclusion Plan](https://conf.researchr.org/attending/icse-2020/Diversity+and+Inclusion+Plan) has been updated to discuss visa issues.
