@@ -161,3 +161,7 @@ On the topic of virtualization, Pierlauro Sciarelli, a PhD candidate at the Barc
 > If the research papers are presenting benchmarks, it is extremely difficult to predict the overhead introduced by virtualization: the throughput can be extremely varying depending on architecture/operating system/configuration and a lot of other variables; paradoxically the discrepancies could invalidate the whole effort of presenting an artifact. One solution for trying mitigating the virtualization effects would be to include proposals of kernel patching, but that's really something that no evaluator would like to do (and maybe not even the authors). There are tools such as Singularity and Shifter that can help solving the mentioned problems as they are allowing to efficiently run a docker image with native performances. However, as both software are "very [sensitive]" to automatic conversion of docker images, it should be the author's duty to test that containers are properly working with those tools (or other similar ones).
 
 If you have experience with artifact evaluation yourself and have more tips to add, some insights regarding other types of artifacts (e.g. survey data, user studies, or mechanized proofs), or if you vehemently disagree with anything in this post, please let me know via email or twitter.
+
+### More Resources
+
+* [HOWTO for AEC Submitters](http://bit.ly/HOWTO-AEC) by Dan Barowy, Charlie Curtsinger, Emma Tosch, John Vilk, and Emery Berger from UMass Amherst.
