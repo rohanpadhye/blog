@@ -47,11 +47,11 @@ A fringe movement has recently created a stir about an alternative explanation f
 
 Regardless of the philosophical debate, it turns out that the origin problem, when treated purely computationally, is **undecidable** in general. A proof follows.
 
-Let's assume that the origin problem is actually decidable. In that case, there exists an algorithm `had_beginning(P, s)`, which takes as input a program `P` and a running state `s`---such as the current program counter, and values of all varables / registers / memory locations----and returns `true` if the program has been executing from its entry point and `false` if the program has been running forever.
+Let's assume that the origin problem is actually decidable. In that case, there exists an algorithm `had_beginning(P, s)`, which takes as input a program `P` and a running state `s`---such as the current program counter, and values of all varables / registers / memory locations---and returns `true` if the program has been executing from its entry point and `false` if the program has been running forever.
 
 Now, given any program `P`, we can construct an augmented program `P'` as follows:
 ```
-Line 1 | program P`: 
+Line 1 | program P': 
 Line 2 |    run P
 Line 3 |    run P   // s' is an intermediate state inside this call
 ```
@@ -59,6 +59,3 @@ Line 3 |    run P   // s' is an intermediate state inside this call
 That is, the program `P'` simply runs `P` as a subprogram twice in a straight-line sequence.  Let `s'` be a running state inside the subprogram `P` when invoked at **Line 3**.
 
 Now, if `had_beginning(P', s')` returns `true`, then it means that `P'` started execution from Line 1 and reached Line 3, which means that subprogram `P` *successfully terminated* its execution on Line 2. On the other hand, if `had_beginning(P', s')` returns `false`, then it means that `P'` has *always been running*. But of course, a program that has been running forever needs an infinite loop. Since there are no loops surrounding the invocations of subprogram `P`, it must mean that *`P` itself has an infinite loop*. In this way, `had_beginning` actually allows us to determine whether any program `P` halts or loops forever. Since the halting problem is known to be undecidable, such a `had_beginning` cannot actually exist; therefore, the **origin problem is undecidable**. QED.
-
-
-
