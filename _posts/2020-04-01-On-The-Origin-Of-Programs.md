@@ -13,7 +13,7 @@ Where do programs come from? This question has eluded experts since [the birth o
 
 Let us illustrate the problem with an example. You are probably reading this article on a computer. In fact, you are probably using some program to read this article. There are likely many other programs currently running on your computer. Depending on your operating system, you can find the list of such programs by launching the task manager, the activity monitor, or by screaming "*Hey Google, what's currently running?*". If you are like me, you've probably wondered: where do these programs come from? Were they always running, or was there ever a beginning? This is the *origin problem*. 
 
-Now, stay with me here. I know that physics dictates that there *must* have been a beginning because somebody had to physically build the computer on which the program is running and of course because the universe only came into existence on January 1, 1970 at 00:00:00 UTC. However, the computer scientists among you will appreciate that since [physics](https://en.wikipedia.org/wiki/Ultimate_fate_of_the_universe) is never used to resolve the [halting problem](https://en.wikipedia.org/wiki/Halting_problem), it is also inappropriate to resolve the origin problem. 
+Now, stay with me here. I know that physics dictates that there *must* have been a beginning because somebody had to physically build the computer on which the program is running and of course because the universe only came into existence on January 1, 1970 at 00:00:00 UTC. However, since [physics](https://en.wikipedia.org/wiki/Ultimate_fate_of_the_universe) is never used to resolve the [halting problem](https://en.wikipedia.org/wiki/Halting_problem), it is also inappropriate to resolve the origin problem. 
 
 
 ## The Intelligent Programmer Proposition
@@ -41,13 +41,13 @@ However, loop theorists have recently made breakthrough advances that debunk thi
 
 <img alt="Flying Spaghetti-Code Monster" src="https://blog.padhye.org/images/fscm.png" height="100" />
 
-A fringe movement has recently created a stir about an alternative explanation for the missing iteration. Believers claim that a *flying spaghetti-code monster* (pictured above) randomly injects `goto` statements in straight-line code until programs start looping forever. The monster itself was accidentally created in a military facility that tried to weaponize the `goto` statement after someone misinterpreted [Dijkstra's seminal paper](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf). This theory is entirely plausible but is currently awaiting peer review.
+A fringe movement has recently created a stir about an alternative explanation for the missing iteration. Believers claim that a *flying spaghetti-code monster* (pictured above) randomly injects `goto` statements in straight-line code until programs start looping forever. The monster itself was accidentally created in a military facility that tried to weaponize the `goto` statement after someone misinterpreted [Dijkstra's seminal 1968 paper](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf). This theory is entirely plausible but is currently awaiting peer review.
 
 ## Undecidability of the Origin Problem
 
 Regardless of the philosophical debate, it turns out that the origin problem, when treated purely computationally, is **undecidable** in general. A proof follows.
 
-Let's assume that the origin problem is actually decidable. In that case, we can assume that there exists an algorithm `had_beginning(P, s)`, which takes as input a program `P` and a running state `s`---such as the current program counter, and values of all varables / registers / memory locations----and returns `true` if the program has been executing from its entry point and `false` if the program has been running forever.
+Let's assume that the origin problem is actually decidable. In that case, there exists an algorithm `had_beginning(P, s)`, which takes as input a program `P` and a running state `s`---such as the current program counter, and values of all varables / registers / memory locations----and returns `true` if the program has been executing from its entry point and `false` if the program has been running forever.
 
 Now, given any program `P`, we can construct an augmented program `P'` as follows:
 ```
