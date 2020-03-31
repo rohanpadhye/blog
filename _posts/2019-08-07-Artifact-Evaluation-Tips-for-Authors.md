@@ -165,3 +165,7 @@ If you have experience with artifact evaluation yourself and have more tips to a
 ### More Resources
 
 * [HOWTO for AEC Submitters](http://bit.ly/HOWTO-AEC) by Dan Barowy, Charlie Curtsinger, Emma Tosch, John Vilk, and Emery Berger from UMass Amherst.
+
+### Join the Discussion!
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I wrote an article on preparing good artifacts for evaluation in PL/SE/Systems conferences. It draws upon my experiences with artifact evaluation at PLDI, ISSTA, and OOPSLA.</p>&mdash; Rohan Padhye (@moarbugs) <a href="https://twitter.com/moarbugs/status/1159017122376237056?ref_src=twsrc%5Etfw">August 7, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
