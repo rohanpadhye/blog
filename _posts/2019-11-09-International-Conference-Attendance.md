@@ -9,8 +9,11 @@ There is no shortage of anecdotes on conference registrants, presenters, volunte
 
 Naturally, visa issues disproportionately affect members of developing nations and underrepresented communities. Visa refusals are also more common for first-time foreign travelers, which means that junior students are likely the most affected group in the population. (I wish I had more comprehensive statistics, but [more on that later](#call-for-data).)
 
+As academics, we cannot easily make sweeping changes in international relations and policy. But perhaps there are steps that we can take in the way we organize and conduct conferences to mitigate biases against national origin and citizenship. 
 
-As academics, we cannot easily make sweeping changes in international relations and policy. But perhaps there are steps that we can take in the way we organize and conduct conferences to mitigate biases against national origin and citizenship. I'd like to start by quoting some definitions from the [ICSE 2019 diversity and inclusion plan](https://2019.icse-conferences.org/attending/diversity-and-inclusion):
+<!--more-->
+
+I'd like to start by quoting some definitions from the [ICSE 2019 diversity and inclusion plan](https://2019.icse-conferences.org/attending/diversity-and-inclusion):
 > **Equity** at its heart is about removing barriers, biases, and obstacles that impede equal access and opportunity to succeed.
 > [...]
 > **Inclusion** is about creating a conference program and environment that is free from discrimination and where every participant feels welcome, included, respected, and safe.
@@ -18,8 +21,6 @@ As academics, we cannot easily make sweeping changes in international relations 
 If these are goals that we all care about, then what can we do to increase equity and inclusion for those affected by barriers such as visa requirements, obstacles such as travel restrictions, and to make international participants feel welcome and included?
 
 To get a better idea, I embarked on an informal study. I scanned the websites of some CS conferences in my field (*programming languages and software engineering*) or in related areas for their policies regarding author attendance and visa issues. If I couldn't find any information on the website, I contacted the general chairs requesting this information. Here's what I found out.
-
-<!--more-->
 
 It seems that there are several different inclusive strategies that conference organizers can consider (with overlaps between them):
 
