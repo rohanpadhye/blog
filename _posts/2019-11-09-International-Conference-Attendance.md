@@ -198,3 +198,7 @@ Changelog:
 1. (November 10, 2019): Updated to include OSDI along with SOSP.
 2. (November 10, 2019): Updated to include [additional information](https://icfp20.sigplan.org/track/icfp-2020-papers#information-for-authors-of-accepted-papers) provided by ICFP chairs.
 3. (November 14, 2019): Updated to indicate that the [ICSE 2020 Diversity and Inclusion Plan](https://conf.researchr.org/attending/icse-2020/Diversity+and+Inclusion+Plan) has been updated to discuss visa issues.
+
+## Join the discussion!
+
+<blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">Wrote a new blog post on visa issues and what conference organizers can do to be more inclusive. Includes survey of some recent PL/SE conferences. <a href="https://t.co/BBUaWEG2AW">https://t.co/BBUaWEG2AW</a></p>&mdash; Rohan Padhye (@moarbugs) <a href="https://twitter.com/moarbugs/status/1193332318254985216?ref_src=twsrc%5Etfw">November 10, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
