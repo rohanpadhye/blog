@@ -12,7 +12,7 @@ layout: default
         {{ post.excerpt }}
       </div>
 
-      <div class="date" style="float: right">Written on {{ page.date | date: "%B %e, %Y" }}</div>
+      <div class="date" style="float: right">Written on {{ post.date | date: "%B %e, %Y" }}</div>
       
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
