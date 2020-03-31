@@ -11,7 +11,7 @@ Where do programs come from? This question has eluded experts since [the birth o
 
 ## The Origin Problem
 
-Let us illustrate the problem with an example. You are probably reading this article on a computer. In fact, you are probably using some program to read this article. There are likely many other programs currently running on your computer. Depending on your operating system, you can find the list of such programs by launching the task manager, the activity monitor, or by screaming "*Hey Google, what's currently running?*". If you are like me, you've probably wondered: where do these programs come from? Were they always running, or was there ever a beginning? This is the *origin problem*. 
+Let us illustrate the problem with an example. You are probably reading this article using a computer program. There are likely many other programs currently running on your computer. Depending on your operating system, you can find the list of such programs by launching the task manager, the activity monitor, or by screaming "*Hey Google, what's currently running?*". If you are like me, you've probably wondered: where do these programs come from? Were they always running, or was there ever a beginning? This is the *origin problem*. 
 
 Now, stay with me here. I know that physics dictates that there *must* have been a beginning because somebody had to physically build the computer on which the program is running and of course because the universe only came into existence on January 1, 1970 at 00:00:00 UTC. However, since [physics](https://en.wikipedia.org/wiki/Ultimate_fate_of_the_universe) is never used to resolve the [halting problem](https://en.wikipedia.org/wiki/Halting_problem), it is also inappropriate to resolve the origin problem. 
 
@@ -58,4 +58,8 @@ Line 3 |    run P   // s' is an intermediate state inside this call
 
 That is, the program `P'` simply runs `P` as a subprogram twice in a straight-line sequence.  Let `s'` be a running state inside the subprogram `P` when invoked at **Line 3**.
 
-Now, if `had_beginning(P', s')` returns `true`, then it means that `P'` started execution from Line 1 and reached Line 3, which means that subprogram `P` *successfully terminated* its execution on Line 2. On the other hand, if `had_beginning(P', s')` returns `false`, then it means that `P'` has *always been running*. But of course, a program that has been running forever needs an infinite loop. Since there are no loops surrounding the invocations of subprogram `P`, it must mean that *`P` itself has an infinite loop*. In this way, `had_beginning` actually allows us to determine whether any program `P` halts or loops forever. Since the halting problem is known to be undecidable, such a `had_beginning` cannot actually exist; therefore, the **origin problem is undecidable**. QED.
+Now, if `had_beginning(P', s')` returns `true`, then it means that `P'` started execution from Line 1 and reached Line 3. This implies that subprogram `P` *successfully terminated* its execution on Line 2. 
+
+On the other hand, if `had_beginning(P', s')` returns `false`, then it means that `P'` has *always been running*. But of course, a program that has been running forever needs an infinite loop. Since there are no loops surrounding the invocations of subprogram `P`, it must mean that *`P` itself has an infinite loop*. 
+
+In this way, `had_beginning` actually allows us to determine whether any program `P` halts or loops forever. Since the halting problem is known to be undecidable, such a `had_beginning` cannot actually exist; therefore, the **origin problem is undecidable**. QED.
