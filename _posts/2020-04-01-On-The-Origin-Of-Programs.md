@@ -44,7 +44,7 @@ A fringe movement has recently created a stir about an alternative explanation f
 
 ## Undecidability of the Origin Problem
 
-Regardless of the philosophical debate, it turns out that the origin problem, when treated purely computationally, is **undecidable** in general. A proof follows.
+Regardless of the philosophical debate, it turns out that the origin problem, when treated purely mathematically, is **undecidable** in general. A proof follows.
 
 Let's assume that the origin problem is actually decidable. In that case, there exists an algorithm `had_beginning(P, s)`, which takes as input a program `P` and a running state `s`---such as the current program counter, and values of all varables / registers / memory locations---and returns `true` if the program has been executing from its entry point and `false` if the program has been running forever.
 
