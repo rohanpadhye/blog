@@ -17,7 +17,7 @@ Now, stay with me here. I know that physics dictates that there *must* have been
 
 ## The Intelligent Programmer Proposition
 
-The classical dogma that proliferates software engineering textbooks is that all programs must have a beginning because they are intentionally designed. Proponents of this school of thought argue that (a) programs are beautiful and elegant, and (b) programs have a purpose; therefore, programs must have been designed by an *intelligent programmer*. Not only is the argument flawed---indeed, this author has witnessed programs that are neither elegant nor have a purpose---but it also raises a host of other questions such as: *where does the programmer come from?* 
+The classical dogma that proliferates software engineering textbooks is that all programs must have a beginning because they are intentionally designed. Proponents of this school of thought argue that (a) programs are beautiful and elegant, and (b) programs have a purpose; therefore, programs must have been designed by an *intelligent programmer*. Not only is the argument flawed---indeed, this author has designed programs that are neither elegant nor have a purpose---but it also raises a host of other questions such as: *where does the programmer come from?* 
 
 ## Natural Reflection
 
