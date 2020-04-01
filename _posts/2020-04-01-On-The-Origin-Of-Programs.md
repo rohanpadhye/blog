@@ -12,7 +12,7 @@ Where do programs come from? This question has eluded experts since [the birth o
 
 You are probably reading this article using a computer program. There are likely many other programs currently running on your computer. Depending on your operating system, you can find the list of such programs by launching the task manager, the activity monitor, or by screaming "*Hey Google, what's currently running?*". If you are like me, you've probably wondered: where do these programs come from? Were they always running, or was there ever a beginning? This is the *origin problem*. 
 
-Now, stay with me here. I know that physics dictates that there *must* have been a beginning because somebody had to physically build the computer on which the program is running and of course because the universe only came into existence on January 1, 1970 at 00:00:00 UTC. However, since [physics](https://en.wikipedia.org/wiki/Ultimate_fate_of_the_universe) is never used to resolve the [halting problem](https://en.wikipedia.org/wiki/Halting_problem), it is also inappropriate to resolve the origin problem. 
+Now, stay with me here. I know that physics dictates that there *must* have been a beginning because somebody had to physically build the computer on which the program is running and of course because the universe only came into existence on January 1, 1970 at 00:00:00 UTC. However, since [physics](https://en.wikipedia.org/wiki/Ultimate_fate_of_the_universe) is never used to resolve the halting problem, it is also inappropriate to resolve the origin problem. 
 
 
 ## The Intelligent Programmer Proposition
