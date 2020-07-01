@@ -165,6 +165,7 @@ If you have experience with artifact evaluation yourself and have more tips to a
 ### More Resources
 
 * [HOWTO for AEC Submitters](http://bit.ly/HOWTO-AEC) by Dan Barowy, Charlie Curtsinger, Emma Tosch, John Vilk, and Emery Berger from UMass Amherst.
+* [Why I will never join an Artifacts Evaluation Committee Again](https://inventitech.com/blog/why-i-will-never-review-artifacts-again/) by Moritz Beller. An unfortunate negative experience by an AEC member; if you are author, this is a good read to understand how hard artifact evaluation can be and why you should respect the AEC's time.
 
 ### Join the Discussion!
 
